@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AionCalc
 {
-    public class Adder
+    public class Adder : IBinaryCalculator
     {
         public string Calculate(double firstArgument, double secondArgument)
         {
