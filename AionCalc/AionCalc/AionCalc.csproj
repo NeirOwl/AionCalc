@@ -55,6 +55,9 @@
     </Compile>
     <Compile Include="BinaryCalculators\IBinaryCalculator.cs" />
     <Compile Include="BinaryCalculators\Multiplication.cs" />
+    <Compile Include="MonoCalculators\Cos.cs" />
+    <Compile Include="MonoCalculators\IMonoCalculator.cs" />
+    <Compile Include="MonoCalculators\MonoOperationsFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BinaryCalculators\Subtraction.cs" />
@@ -86,9 +89,7 @@
   <ItemGroup>
     <Content Include="Tasks.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="MonoCalculators\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

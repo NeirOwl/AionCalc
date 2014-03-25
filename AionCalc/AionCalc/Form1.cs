@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using AionCalc.BinaryCalculators;
+using AionCalc.MonoCalculators;
 
 namespace AionCalc
 {
@@ -20,8 +21,7 @@ namespace AionCalc
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            label1.Text = "Первый аргумент";
-            label2.Text = "Второй аргумент";
+            
         }
 
         private void Addition_Click(object sender, EventArgs e)
@@ -50,6 +50,18 @@ namespace AionCalc
             double second = Convert.ToDouble(SecondArgument.Text);
             IBinaryCalculator calc = BinaryOperationsFactory.CreateCalculator(name);
             Answer.Text = calc.Calculate(first, second);
+        }
+
+        private void Cos_Click(object sender, EventArgs e)
+        {
+            MonoCalculator("cos");
+        }
+
+        private void MonoCalculator(string name)
+        {
+            double first = Convert.ToDouble(FirstArgument.Text);
+            IMonoCalculator calc = MonoOperationsFactory.CreateCalculator(name);
+            Answer.Text = calc.Calculate(first);
         }
     }
 }

@@ -37,6 +37,7 @@
             this.Division = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.Cos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstArgument
@@ -63,9 +64,9 @@
             // 
             // Addition
             // 
-            this.Addition.Location = new System.Drawing.Point(71, 287);
+            this.Addition.Location = new System.Drawing.Point(12, 105);
             this.Addition.Name = "Addition";
-            this.Addition.Size = new System.Drawing.Size(49, 47);
+            this.Addition.Size = new System.Drawing.Size(34, 32);
             this.Addition.TabIndex = 3;
             this.Addition.Text = "+";
             this.Addition.UseVisualStyleBackColor = true;
@@ -73,9 +74,9 @@
             // 
             // Subtraction
             // 
-            this.Subtraction.Location = new System.Drawing.Point(140, 287);
+            this.Subtraction.Location = new System.Drawing.Point(52, 105);
             this.Subtraction.Name = "Subtraction";
-            this.Subtraction.Size = new System.Drawing.Size(49, 47);
+            this.Subtraction.Size = new System.Drawing.Size(34, 32);
             this.Subtraction.TabIndex = 4;
             this.Subtraction.Text = "-";
             this.Subtraction.UseVisualStyleBackColor = true;
@@ -83,9 +84,9 @@
             // 
             // Multiplication
             // 
-            this.Multiplication.Location = new System.Drawing.Point(206, 287);
+            this.Multiplication.Location = new System.Drawing.Point(92, 105);
             this.Multiplication.Name = "Multiplication";
-            this.Multiplication.Size = new System.Drawing.Size(49, 47);
+            this.Multiplication.Size = new System.Drawing.Size(34, 32);
             this.Multiplication.TabIndex = 5;
             this.Multiplication.Text = "*";
             this.Multiplication.UseVisualStyleBackColor = true;
@@ -93,9 +94,9 @@
             // 
             // Division
             // 
-            this.Division.Location = new System.Drawing.Point(272, 287);
+            this.Division.Location = new System.Drawing.Point(132, 105);
             this.Division.Name = "Division";
-            this.Division.Size = new System.Drawing.Size(49, 47);
+            this.Division.Size = new System.Drawing.Size(34, 32);
             this.Division.TabIndex = 6;
             this.Division.Text = "/";
             this.Division.UseVisualStyleBackColor = true;
@@ -106,24 +107,35 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(126, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(97, 13);
             this.label1.TabIndex = 7;
-            this.label1.Text = "label1";
+            this.label1.Text = "Первый аргумент";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(126, 41);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.Size = new System.Drawing.Size(93, 13);
             this.label2.TabIndex = 8;
-            this.label2.Text = "label2";
+            this.label2.Text = "Второй аргумент";
+            // 
+            // Cos
+            // 
+            this.Cos.Location = new System.Drawing.Point(172, 105);
+            this.Cos.Name = "Cos";
+            this.Cos.Size = new System.Drawing.Size(34, 32);
+            this.Cos.TabIndex = 9;
+            this.Cos.Text = "cos";
+            this.Cos.UseVisualStyleBackColor = true;
+            this.Cos.Click += new System.EventHandler(this.Cos_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(403, 384);
+            this.Controls.Add(this.Cos);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Division);
@@ -152,6 +164,7 @@
         private System.Windows.Forms.Button Division;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button Cos;
     }
 }
 
