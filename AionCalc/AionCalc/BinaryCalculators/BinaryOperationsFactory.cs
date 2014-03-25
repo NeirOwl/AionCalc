@@ -15,9 +15,9 @@ namespace AionCalc.BinaryCalculators
                 case "+": 
                     return new Adder();
                 case "-":
-                    return new Division();
-                case "/":
                     return new Subtraction();
+                case "/":
+                    return new Division();
                 case "*":
                     return new Multiplication();
                 default: 

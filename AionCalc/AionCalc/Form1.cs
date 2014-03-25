@@ -25,33 +25,29 @@ namespace AionCalc
 
         private void Addition_Click(object sender, EventArgs e)
         {
-            double first = Convert.ToDouble(FirstArgument.Text);
-            double second = Convert.ToDouble(SecondArgument.Text);
-            Adder calc = new Adder();
-            Answer.Text = calc.Calculate(first, second);
+           Calculator("+");
         }
 
         private void Subtraction_Click(object sender, EventArgs e)
         {
-            double first = Convert.ToDouble(FirstArgument.Text);
-            double second = Convert.ToDouble(SecondArgument.Text);
-            Subtraction calc = new Subtraction();
-            Answer.Text = calc.Calculate(first, second);
+            Calculator("-");
         }
 
         private void Multiplication_Click(object sender, EventArgs e)
         {
-            double first = Convert.ToDouble(FirstArgument.Text);
-            double second = Convert.ToDouble(SecondArgument.Text);
-            Multiplication calc = new Multiplication();
-            Answer.Text = calc.Calculate(first, second);
+            Calculator("*");
         }
 
         private void Division_Click(object sender, EventArgs e)
         {
+            Calculator("/");
+        }
+
+        private void Calculator(string name)
+        {
             double first = Convert.ToDouble(FirstArgument.Text);
             double second = Convert.ToDouble(SecondArgument.Text);
-            Division calc = new Division();
+            IBinaryCalculator calc = BinaryOperationsFactory.CreateCalculator(name);
             Answer.Text = calc.Calculate(first, second);
         }
     }
