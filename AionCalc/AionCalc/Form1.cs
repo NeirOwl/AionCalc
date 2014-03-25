@@ -20,7 +20,8 @@ namespace AionCalc
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            label1.Text = "Первый аргумент";
+            label2.Text = "Второй аргумент";
         }
 
         private void Addition_Click(object sender, EventArgs e)

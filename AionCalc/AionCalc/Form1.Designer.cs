@@ -35,28 +35,30 @@
             this.Subtraction = new System.Windows.Forms.Button();
             this.Multiplication = new System.Windows.Forms.Button();
             this.Division = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // FirstArgument
             // 
-            this.FirstArgument.Location = new System.Drawing.Point(71, 66);
+            this.FirstArgument.Location = new System.Drawing.Point(12, 12);
             this.FirstArgument.Name = "FirstArgument";
-            this.FirstArgument.Size = new System.Drawing.Size(229, 20);
+            this.FirstArgument.Size = new System.Drawing.Size(108, 20);
             this.FirstArgument.TabIndex = 0;
             // 
             // SecondArgument
             // 
-            this.SecondArgument.Location = new System.Drawing.Point(71, 124);
+            this.SecondArgument.Location = new System.Drawing.Point(12, 38);
             this.SecondArgument.Name = "SecondArgument";
-            this.SecondArgument.Size = new System.Drawing.Size(229, 20);
+            this.SecondArgument.Size = new System.Drawing.Size(108, 20);
             this.SecondArgument.TabIndex = 1;
             // 
             // Answer
             // 
-            this.Answer.Location = new System.Drawing.Point(71, 179);
+            this.Answer.Location = new System.Drawing.Point(12, 64);
             this.Answer.Name = "Answer";
             this.Answer.ReadOnly = true;
-            this.Answer.Size = new System.Drawing.Size(229, 20);
+            this.Answer.Size = new System.Drawing.Size(108, 20);
             this.Answer.TabIndex = 2;
             // 
             // Addition
@@ -99,11 +101,31 @@
             this.Division.UseVisualStyleBackColor = true;
             this.Division.Click += new System.EventHandler(this.Division_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(126, 15);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "label1";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(126, 41);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "label2";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(403, 384);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.Division);
             this.Controls.Add(this.Multiplication);
             this.Controls.Add(this.Subtraction);
@@ -128,6 +150,8 @@
         private System.Windows.Forms.Button Subtraction;
         private System.Windows.Forms.Button Multiplication;
         private System.Windows.Forms.Button Division;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
