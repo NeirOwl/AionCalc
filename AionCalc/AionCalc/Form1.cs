@@ -24,6 +24,14 @@ namespace AionCalc
             
         }
 
+        private void Calculator(string name)
+        {
+            double first = Convert.ToDouble(FirstArgument.Text);
+            double second = Convert.ToDouble(SecondArgument.Text);
+            IBinaryCalculator calc = BinaryOperationsFactory.CreateCalculator(name);
+            Answer.Text = calc.Calculate(first, second);
+        }
+
         private void Addition_Click(object sender, EventArgs e)
         {
            Calculator("+");
@@ -44,17 +52,9 @@ namespace AionCalc
             Calculator("/");
         }
 
-        private void Calculator(string name)
+        private void Division_y_x__Click(object sender, EventArgs e)
         {
-            double first = Convert.ToDouble(FirstArgument.Text);
-            double second = Convert.ToDouble(SecondArgument.Text);
-            IBinaryCalculator calc = BinaryOperationsFactory.CreateCalculator(name);
-            Answer.Text = calc.Calculate(first, second);
-        }
-
-        private void Cos_Click(object sender, EventArgs e)
-        {
-            MonoCalculator("cos");
+            Calculator("/_y_x_");
         }
 
         private void MonoCalculator(string name)
@@ -63,5 +63,31 @@ namespace AionCalc
             IMonoCalculator calc = MonoOperationsFactory.CreateCalculator(name);
             Answer.Text = calc.Calculate(first);
         }
+
+        private void Cos_Click(object sender, EventArgs e)
+        {
+            MonoCalculator("cos");
+        }
+
+        private void Sin_Click(object sender, EventArgs e)
+        {
+            MonoCalculator("sin");
+        }
+
+        private void Tanh_Click(object sender, EventArgs e)
+        {
+            MonoCalculator("tanh");
+        }
+
+        private void Pow_10_x__Click(object sender, EventArgs e)
+        {
+            MonoCalculator("^_10_x_");
+        }
+
+        private void Multiplication_10_x__Click(object sender, EventArgs e)
+        {
+            MonoCalculator("*_10_x_");
+        }
+
     }
 }

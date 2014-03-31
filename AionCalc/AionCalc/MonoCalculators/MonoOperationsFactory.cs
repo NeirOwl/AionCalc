@@ -14,6 +14,14 @@ namespace AionCalc.MonoCalculators
             {
                 case "cos":
                     return new Cos();
+                case "sin":
+                    return new Sin();
+                case "tanh":
+                    return new Tanh();
+                case "^_10_x_":
+                    return new Pow_10_x_();
+                case "*_10_x_":
+                    return new Multiplication_10_x_();
                 default:
                     throw new ArgumentException("Неизвестный калькулятор", "name");
             }

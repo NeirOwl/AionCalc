@@ -38,6 +38,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.Cos = new System.Windows.Forms.Button();
+            this.Sin = new System.Windows.Forms.Button();
+            this.Tanh = new System.Windows.Forms.Button();
+            this.Pow_10_x_ = new System.Windows.Forms.Button();
+            this.Division_y_x_ = new System.Windows.Forms.Button();
+            this.Multiplication_10_x_ = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstArgument
@@ -130,11 +135,66 @@
             this.Cos.UseVisualStyleBackColor = true;
             this.Cos.Click += new System.EventHandler(this.Cos_Click);
             // 
+            // Sin
+            // 
+            this.Sin.Location = new System.Drawing.Point(212, 105);
+            this.Sin.Name = "Sin";
+            this.Sin.Size = new System.Drawing.Size(34, 32);
+            this.Sin.TabIndex = 10;
+            this.Sin.Text = "sin";
+            this.Sin.UseVisualStyleBackColor = true;
+            this.Sin.Click += new System.EventHandler(this.Sin_Click);
+            // 
+            // Tanh
+            // 
+            this.Tanh.Location = new System.Drawing.Point(252, 105);
+            this.Tanh.Name = "Tanh";
+            this.Tanh.Size = new System.Drawing.Size(37, 32);
+            this.Tanh.TabIndex = 11;
+            this.Tanh.Text = "tanh";
+            this.Tanh.UseVisualStyleBackColor = true;
+            this.Tanh.Click += new System.EventHandler(this.Tanh_Click);
+            // 
+            // Pow_10_x_
+            // 
+            this.Pow_10_x_.Location = new System.Drawing.Point(295, 105);
+            this.Pow_10_x_.Name = "Pow_10_x_";
+            this.Pow_10_x_.Size = new System.Drawing.Size(42, 32);
+            this.Pow_10_x_.TabIndex = 12;
+            this.Pow_10_x_.Text = "10^x";
+            this.Pow_10_x_.UseVisualStyleBackColor = true;
+            this.Pow_10_x_.Click += new System.EventHandler(this.Pow_10_x__Click);
+            // 
+            // Division_y_x_
+            // 
+            this.Division_y_x_.Location = new System.Drawing.Point(343, 105);
+            this.Division_y_x_.Name = "Division_y_x_";
+            this.Division_y_x_.Size = new System.Drawing.Size(42, 32);
+            this.Division_y_x_.TabIndex = 13;
+            this.Division_y_x_.Text = "y/x";
+            this.Division_y_x_.UseVisualStyleBackColor = true;
+            this.Division_y_x_.Click += new System.EventHandler(this.Division_y_x__Click);
+            // 
+            // Multiplication_10_x_
+            // 
+            this.Multiplication_10_x_.Location = new System.Drawing.Point(12, 143);
+            this.Multiplication_10_x_.Name = "Multiplication_10_x_";
+            this.Multiplication_10_x_.Size = new System.Drawing.Size(42, 32);
+            this.Multiplication_10_x_.TabIndex = 14;
+            this.Multiplication_10_x_.Text = "10*x";
+            this.Multiplication_10_x_.UseVisualStyleBackColor = true;
+            this.Multiplication_10_x_.Click += new System.EventHandler(this.Multiplication_10_x__Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(403, 384);
+            this.Controls.Add(this.Multiplication_10_x_);
+            this.Controls.Add(this.Division_y_x_);
+            this.Controls.Add(this.Pow_10_x_);
+            this.Controls.Add(this.Tanh);
+            this.Controls.Add(this.Sin);
             this.Controls.Add(this.Cos);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -165,6 +225,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button Cos;
+        private System.Windows.Forms.Button Sin;
+        private System.Windows.Forms.Button Tanh;
+        private System.Windows.Forms.Button Pow_10_x_;
+        private System.Windows.Forms.Button Division_y_x_;
+        private System.Windows.Forms.Button Multiplication_10_x_;
     }
 }
 
