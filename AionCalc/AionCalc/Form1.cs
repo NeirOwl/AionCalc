@@ -172,6 +172,11 @@ namespace AionCalc
         private void Lg_Click(object sender, EventArgs e)
         {
             MonoCalculator("lg");
+        }
+
+        private void Ln_Click(object sender, EventArgs e)
+        {
+            MonoCalculator("ln");
         } 
 
     }

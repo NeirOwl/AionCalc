@@ -60,6 +60,7 @@
             this.Cosh = new System.Windows.Forms.Button();
             this.Twomultiplyxdivisiony = new System.Windows.Forms.Button();
             this.Lg = new System.Windows.Forms.Button();
+            this.Ln = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstArgument
@@ -372,11 +373,22 @@
             this.Lg.UseVisualStyleBackColor = true;
             this.Lg.Click += new System.EventHandler(this.Lg_Click);
             // 
+            // Ln
+            // 
+            this.Ln.Location = new System.Drawing.Point(246, 220);
+            this.Ln.Name = "Ln";
+            this.Ln.Size = new System.Drawing.Size(36, 31);
+            this.Ln.TabIndex = 32;
+            this.Ln.Text = "ln";
+            this.Ln.UseVisualStyleBackColor = true;
+            this.Ln.Click += new System.EventHandler(this.Ln_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(403, 384);
+            this.Controls.Add(this.Ln);
             this.Controls.Add(this.Lg);
             this.Controls.Add(this.Twomultiplyxdivisiony);
             this.Controls.Add(this.Cosh);
@@ -451,6 +463,7 @@
         private System.Windows.Forms.Button Cosh;
         private System.Windows.Forms.Button Twomultiplyxdivisiony;
         private System.Windows.Forms.Button Lg;
+        private System.Windows.Forms.Button Ln;
     }
 }
 

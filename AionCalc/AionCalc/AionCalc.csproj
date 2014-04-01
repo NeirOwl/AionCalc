@@ -68,6 +68,7 @@
     <Compile Include="MonoCalculators\Gradtorad.cs" />
     <Compile Include="MonoCalculators\IMonoCalculator.cs" />
     <Compile Include="MonoCalculators\Lg.cs" />
+    <Compile Include="MonoCalculators\Ln.cs" />
     <Compile Include="MonoCalculators\MonoOperationsFactory.cs" />
     <Compile Include="MonoCalculators\Sinh.cs" />
     <Compile Include="MonoCalculators\Sqrtpow3x.cs" />

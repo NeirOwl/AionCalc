@@ -46,6 +46,8 @@ namespace AionCalc.MonoCalculators
                     return new Cosh();
                 case "lg":
                     return new Lg();
+                case "ln":
+                    return new Ln();
                 default:
                     throw new ArgumentException("Неизвестный калькулятор", "name");
             }
