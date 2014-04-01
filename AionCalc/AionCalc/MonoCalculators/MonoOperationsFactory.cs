@@ -40,6 +40,8 @@ namespace AionCalc.MonoCalculators
                     return  new Tendivisionx();
                 case "x^3":
                     return  new Xpow3();
+                case "sinh":
+                    return  new Sinh();
                 default:
                     throw new ArgumentException("Неизвестный калькулятор", "name");
             }

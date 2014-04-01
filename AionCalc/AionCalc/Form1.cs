@@ -151,6 +151,11 @@ namespace AionCalc
         private void Xpow3_Click(object sender, EventArgs e)
         {
             MonoCalculator("x^3");
+        }
+
+        private void Sinh_Click(object sender, EventArgs e)
+        {
+            MonoCalculator("sinh");
         }    
 
     }

@@ -56,6 +56,7 @@
             this.Tenmultiplyxdivisiony = new System.Windows.Forms.Button();
             this.Xpow3 = new System.Windows.Forms.Button();
             this.Log = new System.Windows.Forms.Button();
+            this.Sinh = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstArgument
@@ -328,11 +329,22 @@
             this.Log.UseVisualStyleBackColor = true;
             this.Log.Click += new System.EventHandler(this.Log_Click);
             // 
+            // Sinh
+            // 
+            this.Sinh.Location = new System.Drawing.Point(62, 219);
+            this.Sinh.Name = "Sinh";
+            this.Sinh.Size = new System.Drawing.Size(39, 30);
+            this.Sinh.TabIndex = 28;
+            this.Sinh.Text = "sinh";
+            this.Sinh.UseVisualStyleBackColor = true;
+            this.Sinh.Click += new System.EventHandler(this.Sinh_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(403, 384);
+            this.Controls.Add(this.Sinh);
             this.Controls.Add(this.Log);
             this.Controls.Add(this.Xpow3);
             this.Controls.Add(this.Tenmultiplyxdivisiony);
@@ -399,6 +411,7 @@
         private System.Windows.Forms.Button Tenmultiplyxdivisiony;
         private System.Windows.Forms.Button Xpow3;
         private System.Windows.Forms.Button Log;
+        private System.Windows.Forms.Button Sinh;
     }
 }
 
