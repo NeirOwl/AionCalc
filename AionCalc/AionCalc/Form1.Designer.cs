@@ -55,6 +55,7 @@
             this.Tendivisionx = new System.Windows.Forms.Button();
             this.Tenmultiplyxdivisiony = new System.Windows.Forms.Button();
             this.Xpow3 = new System.Windows.Forms.Button();
+            this.Log = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstArgument
@@ -317,11 +318,22 @@
             this.Xpow3.UseVisualStyleBackColor = true;
             this.Xpow3.Click += new System.EventHandler(this.Xpow3_Click);
             // 
+            // Log
+            // 
+            this.Log.Location = new System.Drawing.Point(12, 219);
+            this.Log.Name = "Log";
+            this.Log.Size = new System.Drawing.Size(44, 31);
+            this.Log.TabIndex = 27;
+            this.Log.Text = "log";
+            this.Log.UseVisualStyleBackColor = true;
+            this.Log.Click += new System.EventHandler(this.Log_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(403, 384);
+            this.Controls.Add(this.Log);
             this.Controls.Add(this.Xpow3);
             this.Controls.Add(this.Tenmultiplyxdivisiony);
             this.Controls.Add(this.Tendivisionx);
@@ -386,6 +398,7 @@
         private System.Windows.Forms.Button Tendivisionx;
         private System.Windows.Forms.Button Tenmultiplyxdivisiony;
         private System.Windows.Forms.Button Xpow3;
+        private System.Windows.Forms.Button Log;
     }
 }
 

@@ -28,6 +28,8 @@ namespace AionCalc.BinaryCalculators
                     return new Sqrtpowyx();
                 case "10*x/y":
                     return new Tenmultiplyxdivisiony();
+                case "log":
+                    return new Log();
                 default: 
                     throw new ArgumentException("Неизвестный калькулятор","name");
             }

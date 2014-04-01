@@ -72,6 +72,10 @@ namespace AionCalc
             Calculator("10*x/y");
         }
 
+        private void Log_Click(object sender, EventArgs e)
+        {
+            Calculator("log");
+        }
         private void MonoCalculator(string name)
         {
             double first = Convert.ToDouble(FirstArgument.Text);
@@ -147,7 +151,7 @@ namespace AionCalc
         private void Xpow3_Click(object sender, EventArgs e)
         {
             MonoCalculator("x^3");
-        }
+        }    
 
     }
 }
