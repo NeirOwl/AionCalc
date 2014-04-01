@@ -53,6 +53,7 @@
             this.Sqrtpowyx = new System.Windows.Forms.Button();
             this.Factorial = new System.Windows.Forms.Button();
             this.Tendivisionx = new System.Windows.Forms.Button();
+            this.Tenmultiplyxdivisiony = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstArgument
@@ -295,11 +296,22 @@
             this.Tendivisionx.UseVisualStyleBackColor = true;
             this.Tendivisionx.Click += new System.EventHandler(this.Tendivisionx_Click);
             // 
+            // Tenmultiplyxdivisiony
+            // 
+            this.Tenmultiplyxdivisiony.Location = new System.Drawing.Point(241, 181);
+            this.Tenmultiplyxdivisiony.Name = "Tenmultiplyxdivisiony";
+            this.Tenmultiplyxdivisiony.Size = new System.Drawing.Size(48, 32);
+            this.Tenmultiplyxdivisiony.TabIndex = 25;
+            this.Tenmultiplyxdivisiony.Text = "10*x/y";
+            this.Tenmultiplyxdivisiony.UseVisualStyleBackColor = true;
+            this.Tenmultiplyxdivisiony.Click += new System.EventHandler(this.Tenmultiplyxdivisiony_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(403, 384);
+            this.Controls.Add(this.Tenmultiplyxdivisiony);
             this.Controls.Add(this.Tendivisionx);
             this.Controls.Add(this.Factorial);
             this.Controls.Add(this.Sqrtpowyx);
@@ -360,6 +372,7 @@
         private System.Windows.Forms.Button Sqrtpowyx;
         private System.Windows.Forms.Button Factorial;
         private System.Windows.Forms.Button Tendivisionx;
+        private System.Windows.Forms.Button Tenmultiplyxdivisiony;
     }
 }
 

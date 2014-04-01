@@ -28,15 +28,15 @@ namespace AionCalc.MonoCalculators
                     return  new Gradtorad();
                 case "tan":
                     return  new Tan();
-                case "exppowx":
+                case "e^x":
                     return  new Exppowx();
-                case "twodivisionx":
+                case "2/x":
                     return  new Twodivisionx();
                 case "sqrtpow3x":
                     return  new Sqrtpow3x();
-                case "factorial":
+                case "x!":
                     return  new Factorial();
-                case "tendivisionx":
+                case "10/x":
                     return  new Tendivisionx();
                 default:
                     throw new ArgumentException("Неизвестный калькулятор", "name");

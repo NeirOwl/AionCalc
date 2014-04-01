@@ -67,6 +67,11 @@ namespace AionCalc
             Calculator("sqrtpowyx");
         }
 
+        private void Tenmultiplyxdivisiony_Click(object sender, EventArgs e)
+        {
+            Calculator("10*x/y");
+        }
+
         private void MonoCalculator(string name)
         {
             double first = Convert.ToDouble(FirstArgument.Text);
@@ -116,12 +121,12 @@ namespace AionCalc
 
         private void Exppowx_Click(object sender, EventArgs e)
         {
-            MonoCalculator("exppowx");
+            MonoCalculator("e^x");
         }
 
         private void Twodivisionx_Click(object sender, EventArgs e)
         {
-            MonoCalculator("twodivisionx");
+            MonoCalculator("2/x");
         }
 
         private void Sqrtpow3x_Click(object sender, EventArgs e)
@@ -131,14 +136,13 @@ namespace AionCalc
 
         private void Factorial_Click(object sender, EventArgs e)
         {
-            MonoCalculator("factorial");
+            MonoCalculator("x!");
         }
 
         private void Tendivisionx_Click(object sender, EventArgs e)
         {
-            MonoCalculator("tendivisionx");
+            MonoCalculator("10/x");
         }
-
 
     }
 }
