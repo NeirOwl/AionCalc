@@ -144,5 +144,10 @@ namespace AionCalc
             MonoCalculator("10/x");
         }
 
+        private void Xpow3_Click(object sender, EventArgs e)
+        {
+            MonoCalculator("x^3");
+        }
+
     }
 }

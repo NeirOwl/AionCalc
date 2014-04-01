@@ -38,6 +38,8 @@ namespace AionCalc.MonoCalculators
                     return  new Factorial();
                 case "10/x":
                     return  new Tendivisionx();
+                case "x^3":
+                    return  new Xpow3();
                 default:
                     throw new ArgumentException("Неизвестный калькулятор", "name");
             }

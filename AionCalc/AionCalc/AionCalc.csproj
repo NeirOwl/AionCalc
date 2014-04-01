@@ -74,6 +74,7 @@
     <Compile Include="MonoCalculators\Sin.cs" />
     <Compile Include="MonoCalculators\Tanh.cs" />
     <Compile Include="MonoCalculators\Twodivisionx.cs" />
+    <Compile Include="MonoCalculators\Xpow3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BinaryCalculators\Subtraction.cs" />
