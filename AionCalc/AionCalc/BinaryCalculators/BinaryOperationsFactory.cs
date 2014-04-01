@@ -20,8 +20,8 @@ namespace AionCalc.BinaryCalculators
                     return new Division();
                 case "*":
                     return new Multiplication();
-                case "/_y_x_":
-                    return new Division_y_x_();
+                case "y/x":
+                    return new Ydevisionx();
                 default: 
                     throw new ArgumentException("Неизвестный калькулятор","name");
             }

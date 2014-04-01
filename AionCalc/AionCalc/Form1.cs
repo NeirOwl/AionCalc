@@ -54,7 +54,7 @@ namespace AionCalc
 
         private void Division_y_x__Click(object sender, EventArgs e)
         {
-            Calculator("/_y_x_");
+            Calculator("y/x");
         }
 
         private void MonoCalculator(string name)
@@ -81,12 +81,12 @@ namespace AionCalc
 
         private void Pow_10_x__Click(object sender, EventArgs e)
         {
-            MonoCalculator("^_10_x_");
+            MonoCalculator("10^x");
         }
 
         private void Multiplication_10_x__Click(object sender, EventArgs e)
         {
-            MonoCalculator("*_10_x_");
+            MonoCalculator("10*x");
         }
 
     }

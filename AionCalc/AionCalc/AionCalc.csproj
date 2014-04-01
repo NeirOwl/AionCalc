@@ -46,7 +46,7 @@
   <ItemGroup>
     <Compile Include="BinaryCalculators\Adder.cs" />
     <Compile Include="BinaryCalculators\BinaryOperationsFactory.cs" />
-    <Compile Include="BinaryCalculators\Division%28y,x%29.cs" />
+    <Compile Include="BinaryCalculators\Ydevisionx.cs" />
     <Compile Include="BinaryCalculators\Division.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -59,8 +59,8 @@
     <Compile Include="MonoCalculators\Cos.cs" />
     <Compile Include="MonoCalculators\IMonoCalculator.cs" />
     <Compile Include="MonoCalculators\MonoOperationsFactory.cs" />
-    <Compile Include="MonoCalculators\Multiplication%2810,x%29.cs" />
-    <Compile Include="MonoCalculators\Pow%2810,x%29.cs" />
+    <Compile Include="MonoCalculators\Tenmultiplyx.cs" />
+    <Compile Include="MonoCalculators\Tenpowerx.cs" />
     <Compile Include="MonoCalculators\Sin.cs" />
     <Compile Include="MonoCalculators\Tanh.cs" />
     <Compile Include="Program.cs" />

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AionCalc.MonoCalculators
 {
-    public class Multiplication_10_x_ : IMonoCalculator
+    public class Tenmultiplyx : IMonoCalculator
     {
         public string Calculate(double firstArgument)
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AionCalc.BinaryCalculators
 {
-    public class Division_y_x_ : IBinaryCalculator
+    public class Ydevisionx : IBinaryCalculator
     {
         public string Calculate(double firstArgument, double secondArgument)
         {

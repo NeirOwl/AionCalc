@@ -18,10 +18,10 @@ namespace AionCalc.MonoCalculators
                     return new Sin();
                 case "tanh":
                     return new Tanh();
-                case "^_10_x_":
-                    return new Pow_10_x_();
-                case "*_10_x_":
-                    return new Multiplication_10_x_();
+                case "10^x":
+                    return new Tenpowerx();
+                case "10*x":
+                    return new Tenmultiplyx();
                 default:
                     throw new ArgumentException("Неизвестный калькулятор", "name");
             }
