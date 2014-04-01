@@ -49,6 +49,7 @@
     <Compile Include="BinaryCalculators\Log.cs" />
     <Compile Include="BinaryCalculators\Sqrtpowyx.cs" />
     <Compile Include="BinaryCalculators\Tenmultiplyxdivisiony.cs" />
+    <Compile Include="BinaryCalculators\Twomultiplyxdivisiony.cs" />
     <Compile Include="BinaryCalculators\Xpowy.cs" />
     <Compile Include="BinaryCalculators\Ydevisionx.cs" />
     <Compile Include="BinaryCalculators\Division.cs" />
@@ -61,6 +62,7 @@
     <Compile Include="BinaryCalculators\IBinaryCalculator.cs" />
     <Compile Include="BinaryCalculators\Multiplication.cs" />
     <Compile Include="MonoCalculators\Cos.cs" />
+    <Compile Include="MonoCalculators\Cosh.cs" />
     <Compile Include="MonoCalculators\Exppowx.cs" />
     <Compile Include="MonoCalculators\Factorial.cs" />
     <Compile Include="MonoCalculators\Gradtorad.cs" />

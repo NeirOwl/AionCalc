@@ -76,6 +76,12 @@ namespace AionCalc
         {
             Calculator("log");
         }
+
+        private void Twomultiplyxdivisiony_Click(object sender, EventArgs e)
+        {
+            Calculator("2*x/y");
+        }   
+
         private void MonoCalculator(string name)
         {
             double first = Convert.ToDouble(FirstArgument.Text);
@@ -156,7 +162,12 @@ namespace AionCalc
         private void Sinh_Click(object sender, EventArgs e)
         {
             MonoCalculator("sinh");
-        }    
+        }
+
+        private void Cosh_Click(object sender, EventArgs e)
+        {
+            MonoCalculator("cosh");
+        } 
 
     }
 }

@@ -42,6 +42,8 @@ namespace AionCalc.MonoCalculators
                     return  new Xpow3();
                 case "sinh":
                     return  new Sinh();
+                case "cosh":
+                    return  new Cosh();
                 default:
                     throw new ArgumentException("Неизвестный калькулятор", "name");
             }

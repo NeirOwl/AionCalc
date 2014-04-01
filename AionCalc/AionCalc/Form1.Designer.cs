@@ -57,6 +57,8 @@
             this.Xpow3 = new System.Windows.Forms.Button();
             this.Log = new System.Windows.Forms.Button();
             this.Sinh = new System.Windows.Forms.Button();
+            this.Cosh = new System.Windows.Forms.Button();
+            this.Twomultiplyxdivisiony = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstArgument
@@ -339,11 +341,33 @@
             this.Sinh.UseVisualStyleBackColor = true;
             this.Sinh.Click += new System.EventHandler(this.Sinh_Click);
             // 
+            // Cosh
+            // 
+            this.Cosh.Location = new System.Drawing.Point(108, 219);
+            this.Cosh.Name = "Cosh";
+            this.Cosh.Size = new System.Drawing.Size(40, 31);
+            this.Cosh.TabIndex = 29;
+            this.Cosh.Text = "cosh";
+            this.Cosh.UseVisualStyleBackColor = true;
+            this.Cosh.Click += new System.EventHandler(this.Cosh_Click);
+            // 
+            // Twomultiplyxdivisiony
+            // 
+            this.Twomultiplyxdivisiony.Location = new System.Drawing.Point(154, 220);
+            this.Twomultiplyxdivisiony.Name = "Twomultiplyxdivisiony";
+            this.Twomultiplyxdivisiony.Size = new System.Drawing.Size(42, 30);
+            this.Twomultiplyxdivisiony.TabIndex = 30;
+            this.Twomultiplyxdivisiony.Text = "2*x/y";
+            this.Twomultiplyxdivisiony.UseVisualStyleBackColor = true;
+            this.Twomultiplyxdivisiony.Click += new System.EventHandler(this.Twomultiplyxdivisiony_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(403, 384);
+            this.Controls.Add(this.Twomultiplyxdivisiony);
+            this.Controls.Add(this.Cosh);
             this.Controls.Add(this.Sinh);
             this.Controls.Add(this.Log);
             this.Controls.Add(this.Xpow3);
@@ -412,6 +436,8 @@
         private System.Windows.Forms.Button Xpow3;
         private System.Windows.Forms.Button Log;
         private System.Windows.Forms.Button Sinh;
+        private System.Windows.Forms.Button Cosh;
+        private System.Windows.Forms.Button Twomultiplyxdivisiony;
     }
 }
 
