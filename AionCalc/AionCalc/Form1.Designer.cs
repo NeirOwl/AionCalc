@@ -59,6 +59,7 @@
             this.Sinh = new System.Windows.Forms.Button();
             this.Cosh = new System.Windows.Forms.Button();
             this.Twomultiplyxdivisiony = new System.Windows.Forms.Button();
+            this.Lg = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstArgument
@@ -361,11 +362,22 @@
             this.Twomultiplyxdivisiony.UseVisualStyleBackColor = true;
             this.Twomultiplyxdivisiony.Click += new System.EventHandler(this.Twomultiplyxdivisiony_Click);
             // 
+            // Lg
+            // 
+            this.Lg.Location = new System.Drawing.Point(202, 220);
+            this.Lg.Name = "Lg";
+            this.Lg.Size = new System.Drawing.Size(38, 30);
+            this.Lg.TabIndex = 31;
+            this.Lg.Text = "lg";
+            this.Lg.UseVisualStyleBackColor = true;
+            this.Lg.Click += new System.EventHandler(this.Lg_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(403, 384);
+            this.Controls.Add(this.Lg);
             this.Controls.Add(this.Twomultiplyxdivisiony);
             this.Controls.Add(this.Cosh);
             this.Controls.Add(this.Sinh);
@@ -438,6 +450,7 @@
         private System.Windows.Forms.Button Sinh;
         private System.Windows.Forms.Button Cosh;
         private System.Windows.Forms.Button Twomultiplyxdivisiony;
+        private System.Windows.Forms.Button Lg;
     }
 }
 

@@ -167,6 +167,11 @@ namespace AionCalc
         private void Cosh_Click(object sender, EventArgs e)
         {
             MonoCalculator("cosh");
+        }
+
+        private void Lg_Click(object sender, EventArgs e)
+        {
+            MonoCalculator("lg");
         } 
 
     }

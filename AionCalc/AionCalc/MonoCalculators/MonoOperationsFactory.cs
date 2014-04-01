@@ -23,27 +23,29 @@ namespace AionCalc.MonoCalculators
                 case "10*x":
                     return new Tenmultiplyx();
                 case "sqrtx":
-                    return  new Sqrtx();
+                    return new Sqrtx();
                 case "gradtorad":
-                    return  new Gradtorad();
+                    return new Gradtorad();
                 case "tan":
-                    return  new Tan();
+                    return new Tan();
                 case "e^x":
-                    return  new Exppowx();
+                    return new Exppowx();
                 case "2/x":
-                    return  new Twodivisionx();
+                    return new Twodivisionx();
                 case "sqrtpow3x":
-                    return  new Sqrtpow3x();
+                    return new Sqrtpow3x();
                 case "x!":
-                    return  new Factorial();
+                    return new Factorial();
                 case "10/x":
-                    return  new Tendivisionx();
+                    return new Tendivisionx();
                 case "x^3":
-                    return  new Xpow3();
+                    return new Xpow3();
                 case "sinh":
-                    return  new Sinh();
+                    return new Sinh();
                 case "cosh":
-                    return  new Cosh();
+                    return new Cosh();
+                case "lg":
+                    return new Lg();
                 default:
                     throw new ArgumentException("Неизвестный калькулятор", "name");
             }
