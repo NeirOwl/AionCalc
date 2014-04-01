@@ -36,6 +36,8 @@ namespace AionCalc.MonoCalculators
                     return  new Sqrtpow3x();
                 case "factorial":
                     return  new Factorial();
+                case "tendivisionx":
+                    return  new Tendivisionx();
                 default:
                     throw new ArgumentException("Неизвестный калькулятор", "name");
             }

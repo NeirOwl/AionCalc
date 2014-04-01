@@ -134,6 +134,11 @@ namespace AionCalc
             MonoCalculator("factorial");
         }
 
+        private void Tendivisionx_Click(object sender, EventArgs e)
+        {
+            MonoCalculator("tendivisionx");
+        }
+
 
     }
 }

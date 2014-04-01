@@ -67,6 +67,7 @@
     <Compile Include="MonoCalculators\Sqrtpow3x.cs" />
     <Compile Include="MonoCalculators\Sqrtx.cs" />
     <Compile Include="MonoCalculators\Tan.cs" />
+    <Compile Include="MonoCalculators\Tendivisionx.cs" />
     <Compile Include="MonoCalculators\Tenmultiplyx.cs" />
     <Compile Include="MonoCalculators\Tenpowerx.cs" />
     <Compile Include="MonoCalculators\Sin.cs" />

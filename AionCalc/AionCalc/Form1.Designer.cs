@@ -52,6 +52,7 @@
             this.Sqrtpow3x = new System.Windows.Forms.Button();
             this.Sqrtpowyx = new System.Windows.Forms.Button();
             this.Factorial = new System.Windows.Forms.Button();
+            this.Tendivisionx = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstArgument
@@ -284,11 +285,22 @@
             this.Factorial.UseVisualStyleBackColor = true;
             this.Factorial.Click += new System.EventHandler(this.Factorial_Click);
             // 
+            // Tendivisionx
+            // 
+            this.Tendivisionx.Location = new System.Drawing.Point(186, 181);
+            this.Tendivisionx.Name = "Tendivisionx";
+            this.Tendivisionx.Size = new System.Drawing.Size(49, 32);
+            this.Tendivisionx.TabIndex = 24;
+            this.Tendivisionx.Text = "10/x";
+            this.Tendivisionx.UseVisualStyleBackColor = true;
+            this.Tendivisionx.Click += new System.EventHandler(this.Tendivisionx_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(403, 384);
+            this.Controls.Add(this.Tendivisionx);
             this.Controls.Add(this.Factorial);
             this.Controls.Add(this.Sqrtpowyx);
             this.Controls.Add(this.Sqrtpow3x);
@@ -347,6 +359,7 @@
         private System.Windows.Forms.Button Sqrtpow3x;
         private System.Windows.Forms.Button Sqrtpowyx;
         private System.Windows.Forms.Button Factorial;
+        private System.Windows.Forms.Button Tendivisionx;
     }
 }
 
