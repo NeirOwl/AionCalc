@@ -22,6 +22,8 @@ namespace AionCalc.MonoCalculators
                     return new Tenpowerx();
                 case "10*x":
                     return new Tenmultiplyx();
+                case "sqrtx":
+                    return  new Sqrtx();
                 default:
                     throw new ArgumentException("Неизвестный калькулятор", "name");
             }

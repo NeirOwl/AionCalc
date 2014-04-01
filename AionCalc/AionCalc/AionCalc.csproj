@@ -59,6 +59,7 @@
     <Compile Include="MonoCalculators\Cos.cs" />
     <Compile Include="MonoCalculators\IMonoCalculator.cs" />
     <Compile Include="MonoCalculators\MonoOperationsFactory.cs" />
+    <Compile Include="MonoCalculators\Sqrtx.cs" />
     <Compile Include="MonoCalculators\Tenmultiplyx.cs" />
     <Compile Include="MonoCalculators\Tenpowerx.cs" />
     <Compile Include="MonoCalculators\Sin.cs" />

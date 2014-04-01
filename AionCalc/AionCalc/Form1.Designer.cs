@@ -43,6 +43,7 @@
             this.Pow_10_x_ = new System.Windows.Forms.Button();
             this.Division_y_x_ = new System.Windows.Forms.Button();
             this.Multiplication_10_x_ = new System.Windows.Forms.Button();
+            this.Sqrt = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstArgument
@@ -185,11 +186,22 @@
             this.Multiplication_10_x_.UseVisualStyleBackColor = true;
             this.Multiplication_10_x_.Click += new System.EventHandler(this.Multiplication_10_x__Click);
             // 
+            // Sqrt
+            // 
+            this.Sqrt.Location = new System.Drawing.Point(60, 143);
+            this.Sqrt.Name = "Sqrt";
+            this.Sqrt.Size = new System.Drawing.Size(42, 32);
+            this.Sqrt.TabIndex = 15;
+            this.Sqrt.Text = "sqrt";
+            this.Sqrt.UseVisualStyleBackColor = true;
+            this.Sqrt.Click += new System.EventHandler(this.Sqrt_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(403, 384);
+            this.Controls.Add(this.Sqrt);
             this.Controls.Add(this.Multiplication_10_x_);
             this.Controls.Add(this.Division_y_x_);
             this.Controls.Add(this.Pow_10_x_);
@@ -230,6 +242,7 @@
         private System.Windows.Forms.Button Pow_10_x_;
         private System.Windows.Forms.Button Division_y_x_;
         private System.Windows.Forms.Button Multiplication_10_x_;
+        private System.Windows.Forms.Button Sqrt;
     }
 }
 
