@@ -32,6 +32,8 @@ namespace AionCalc.MonoCalculators
                     return  new Exppowx();
                 case "twodivisionx":
                     return  new Twodivisionx();
+                case "sqrtpow3x":
+                    return  new Sqrtpow3x();
                 default:
                     throw new ArgumentException("Неизвестный калькулятор", "name");
             }

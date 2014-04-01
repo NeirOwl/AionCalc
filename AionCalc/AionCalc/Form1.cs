@@ -62,6 +62,11 @@ namespace AionCalc
             Calculator("y/x");
         }
 
+        private void Sqrtpowyx_Click(object sender, EventArgs e)
+        {
+            Calculator("sqrtpowyx");
+        }
+
         private void MonoCalculator(string name)
         {
             double first = Convert.ToDouble(FirstArgument.Text);
@@ -118,6 +123,12 @@ namespace AionCalc
         {
             MonoCalculator("twodivisionx");
         }
+
+        private void Sqrtpow3x_Click(object sender, EventArgs e)
+        {
+            MonoCalculator("sqrtpow3x");
+        }
+
 
     }
 }

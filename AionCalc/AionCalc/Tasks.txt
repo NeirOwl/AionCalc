@@ -1,4 +1,4 @@
 ﻿Работнев - cos, sin, tanh, 10^x, y/x, 10*x
 Киселёв - sqrt, Градусы->Радианы, tan, x^y, e^x, 2/x
-Гаврилов - pow, exp, n!, 10/x, (10*x)/y, x^3
+Гаврилов - sqrt^3(x), sqrt^y(x), n!, 10/x, (10*x)/y, x^3
 Осипов - log, sinh, cosh, e^2, Pi/2, ln

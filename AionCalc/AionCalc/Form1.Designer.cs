@@ -49,6 +49,8 @@
             this.Xpowy = new System.Windows.Forms.Button();
             this.Exppowx = new System.Windows.Forms.Button();
             this.Twodivisionx = new System.Windows.Forms.Button();
+            this.Sqrtpow3x = new System.Windows.Forms.Button();
+            this.Sqrtpowyx = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstArgument
@@ -251,11 +253,33 @@
             this.Twodivisionx.UseVisualStyleBackColor = true;
             this.Twodivisionx.Click += new System.EventHandler(this.Twodivisionx_Click);
             // 
+            // Sqrtpow3x
+            // 
+            this.Sqrtpow3x.Location = new System.Drawing.Point(12, 181);
+            this.Sqrtpow3x.Name = "Sqrtpow3x";
+            this.Sqrtpow3x.Size = new System.Drawing.Size(59, 32);
+            this.Sqrtpow3x.TabIndex = 21;
+            this.Sqrtpow3x.Text = "sqrt^3(x)";
+            this.Sqrtpow3x.UseVisualStyleBackColor = true;
+            this.Sqrtpow3x.Click += new System.EventHandler(this.Sqrtpow3x_Click);
+            // 
+            // Sqrtpowyx
+            // 
+            this.Sqrtpowyx.Location = new System.Drawing.Point(77, 181);
+            this.Sqrtpowyx.Name = "Sqrtpowyx";
+            this.Sqrtpowyx.Size = new System.Drawing.Size(59, 32);
+            this.Sqrtpowyx.TabIndex = 22;
+            this.Sqrtpowyx.Text = "Sqrt^y(x)";
+            this.Sqrtpowyx.UseVisualStyleBackColor = true;
+            this.Sqrtpowyx.Click += new System.EventHandler(this.Sqrtpowyx_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(403, 384);
+            this.Controls.Add(this.Sqrtpowyx);
+            this.Controls.Add(this.Sqrtpow3x);
             this.Controls.Add(this.Twodivisionx);
             this.Controls.Add(this.Exppowx);
             this.Controls.Add(this.Xpowy);
@@ -308,6 +332,8 @@
         private System.Windows.Forms.Button Xpowy;
         private System.Windows.Forms.Button Exppowx;
         private System.Windows.Forms.Button Twodivisionx;
+        private System.Windows.Forms.Button Sqrtpow3x;
+        private System.Windows.Forms.Button Sqrtpowyx;
     }
 }
 

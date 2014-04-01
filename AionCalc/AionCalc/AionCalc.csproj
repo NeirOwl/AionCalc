@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="BinaryCalculators\Adder.cs" />
     <Compile Include="BinaryCalculators\BinaryOperationsFactory.cs" />
+    <Compile Include="BinaryCalculators\Sqrtpowyx.cs" />
     <Compile Include="BinaryCalculators\Xpowy.cs" />
     <Compile Include="BinaryCalculators\Ydevisionx.cs" />
     <Compile Include="BinaryCalculators\Division.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="MonoCalculators\Gradtorad.cs" />
     <Compile Include="MonoCalculators\IMonoCalculator.cs" />
     <Compile Include="MonoCalculators\MonoOperationsFactory.cs" />
+    <Compile Include="MonoCalculators\Sqrtpow3x.cs" />
     <Compile Include="MonoCalculators\Sqrtx.cs" />
     <Compile Include="MonoCalculators\Tan.cs" />
     <Compile Include="MonoCalculators\Tenmultiplyx.cs" />
