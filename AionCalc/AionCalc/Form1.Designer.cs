@@ -48,6 +48,7 @@
             this.Tan = new System.Windows.Forms.Button();
             this.Xpowy = new System.Windows.Forms.Button();
             this.Exppowx = new System.Windows.Forms.Button();
+            this.Twodivisionx = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstArgument
@@ -117,18 +118,18 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(126, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 13);
+            this.label1.Size = new System.Drawing.Size(113, 13);
             this.label1.TabIndex = 7;
-            this.label1.Text = "Первый аргумент";
+            this.label1.Text = "Первый аргумент - X";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(126, 41);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 13);
+            this.label2.Size = new System.Drawing.Size(109, 13);
             this.label2.TabIndex = 8;
-            this.label2.Text = "Второй аргумент";
+            this.label2.Text = "Второй аргумент - Y";
             // 
             // Cos
             // 
@@ -240,11 +241,22 @@
             this.Exppowx.UseVisualStyleBackColor = true;
             this.Exppowx.Click += new System.EventHandler(this.Exppowx_Click);
             // 
+            // Twodivisionx
+            // 
+            this.Twodivisionx.Location = new System.Drawing.Point(295, 143);
+            this.Twodivisionx.Name = "Twodivisionx";
+            this.Twodivisionx.Size = new System.Drawing.Size(42, 32);
+            this.Twodivisionx.TabIndex = 20;
+            this.Twodivisionx.Text = "2/x";
+            this.Twodivisionx.UseVisualStyleBackColor = true;
+            this.Twodivisionx.Click += new System.EventHandler(this.Twodivisionx_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(403, 384);
+            this.Controls.Add(this.Twodivisionx);
             this.Controls.Add(this.Exppowx);
             this.Controls.Add(this.Xpowy);
             this.Controls.Add(this.Tan);
@@ -295,6 +307,7 @@
         private System.Windows.Forms.Button Tan;
         private System.Windows.Forms.Button Xpowy;
         private System.Windows.Forms.Button Exppowx;
+        private System.Windows.Forms.Button Twodivisionx;
     }
 }
 

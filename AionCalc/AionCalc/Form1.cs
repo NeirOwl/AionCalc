@@ -114,5 +114,10 @@ namespace AionCalc
             MonoCalculator("exppowx");
         }
 
+        private void Twodivisionx_Click(object sender, EventArgs e)
+        {
+            MonoCalculator("twodivisionx");
+        }
+
     }
 }

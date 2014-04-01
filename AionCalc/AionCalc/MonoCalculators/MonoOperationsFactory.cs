@@ -30,6 +30,8 @@ namespace AionCalc.MonoCalculators
                     return  new Tan();
                 case "exppowx":
                     return  new Exppowx();
+                case "twodivisionx":
+                    return  new Twodivisionx();
                 default:
                     throw new ArgumentException("Неизвестный калькулятор", "name");
             }
