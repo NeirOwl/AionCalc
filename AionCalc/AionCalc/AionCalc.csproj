@@ -60,6 +60,7 @@
     <Compile Include="BinaryCalculators\Multiplication.cs" />
     <Compile Include="MonoCalculators\Cos.cs" />
     <Compile Include="MonoCalculators\Exppowx.cs" />
+    <Compile Include="MonoCalculators\Factorial.cs" />
     <Compile Include="MonoCalculators\Gradtorad.cs" />
     <Compile Include="MonoCalculators\IMonoCalculator.cs" />
     <Compile Include="MonoCalculators\MonoOperationsFactory.cs" />

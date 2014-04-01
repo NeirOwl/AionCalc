@@ -129,6 +129,11 @@ namespace AionCalc
             MonoCalculator("sqrtpow3x");
         }
 
+        private void Factorial_Click(object sender, EventArgs e)
+        {
+            MonoCalculator("factorial");
+        }
+
 
     }
 }
