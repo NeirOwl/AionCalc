@@ -22,6 +22,8 @@ namespace AionCalc.BinaryCalculators
                     return new Multiplication();
                 case "y/x":
                     return new Ydevisionx();
+                case "x^y":
+                    return new Xpowy();
                 default: 
                     throw new ArgumentException("Неизвестный калькулятор","name");
             }

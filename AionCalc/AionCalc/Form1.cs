@@ -52,6 +52,11 @@ namespace AionCalc
             Calculator("/");
         }
 
+        private void Xpowy_Click(object sender, EventArgs e)
+        {
+            Calculator("x^y");
+        }
+
         private void Division_y_x__Click(object sender, EventArgs e)
         {
             Calculator("y/x");

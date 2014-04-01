@@ -46,6 +46,7 @@
             this.Sqrt = new System.Windows.Forms.Button();
             this.Gradtorad = new System.Windows.Forms.Button();
             this.Tan = new System.Windows.Forms.Button();
+            this.Xpowy = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstArgument
@@ -218,11 +219,22 @@
             this.Tan.UseVisualStyleBackColor = true;
             this.Tan.Click += new System.EventHandler(this.Tan_Click);
             // 
+            // Xpowy
+            // 
+            this.Xpowy.Location = new System.Drawing.Point(212, 143);
+            this.Xpowy.Name = "Xpowy";
+            this.Xpowy.Size = new System.Drawing.Size(34, 32);
+            this.Xpowy.TabIndex = 18;
+            this.Xpowy.Text = "x^y";
+            this.Xpowy.UseVisualStyleBackColor = true;
+            this.Xpowy.Click += new System.EventHandler(this.Xpowy_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(403, 384);
+            this.Controls.Add(this.Xpowy);
             this.Controls.Add(this.Tan);
             this.Controls.Add(this.Gradtorad);
             this.Controls.Add(this.Sqrt);
@@ -269,6 +281,7 @@
         private System.Windows.Forms.Button Sqrt;
         private System.Windows.Forms.Button Gradtorad;
         private System.Windows.Forms.Button Tan;
+        private System.Windows.Forms.Button Xpowy;
     }
 }
 
