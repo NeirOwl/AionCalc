@@ -94,5 +94,15 @@ namespace AionCalc
             MonoCalculator("sqrtx");
         }
 
+        private void Gradtorad_Click(object sender, EventArgs e)
+        {
+            MonoCalculator("gradtorad");
+        }
+
+        private void Tan_Click(object sender, EventArgs e)
+        {
+            MonoCalculator("tan");
+        }
+
     }
 }

@@ -24,6 +24,10 @@ namespace AionCalc.MonoCalculators
                     return new Tenmultiplyx();
                 case "sqrtx":
                     return  new Sqrtx();
+                case "gradtorad":
+                    return  new Gradtorad();
+                case "tan":
+                    return  new Tan();
                 default:
                     throw new ArgumentException("Неизвестный калькулятор", "name");
             }

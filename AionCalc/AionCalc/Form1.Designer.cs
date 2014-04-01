@@ -44,6 +44,8 @@
             this.Division_y_x_ = new System.Windows.Forms.Button();
             this.Multiplication_10_x_ = new System.Windows.Forms.Button();
             this.Sqrt = new System.Windows.Forms.Button();
+            this.Gradtorad = new System.Windows.Forms.Button();
+            this.Tan = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstArgument
@@ -196,11 +198,33 @@
             this.Sqrt.UseVisualStyleBackColor = true;
             this.Sqrt.Click += new System.EventHandler(this.Sqrt_Click);
             // 
+            // Gradtorad
+            // 
+            this.Gradtorad.Location = new System.Drawing.Point(108, 143);
+            this.Gradtorad.Name = "Gradtorad";
+            this.Gradtorad.Size = new System.Drawing.Size(58, 32);
+            this.Gradtorad.TabIndex = 16;
+            this.Gradtorad.Text = "Gr->Rad";
+            this.Gradtorad.UseVisualStyleBackColor = true;
+            this.Gradtorad.Click += new System.EventHandler(this.Gradtorad_Click);
+            // 
+            // Tan
+            // 
+            this.Tan.Location = new System.Drawing.Point(172, 143);
+            this.Tan.Name = "Tan";
+            this.Tan.Size = new System.Drawing.Size(34, 32);
+            this.Tan.TabIndex = 17;
+            this.Tan.Text = "tan";
+            this.Tan.UseVisualStyleBackColor = true;
+            this.Tan.Click += new System.EventHandler(this.Tan_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(403, 384);
+            this.Controls.Add(this.Tan);
+            this.Controls.Add(this.Gradtorad);
             this.Controls.Add(this.Sqrt);
             this.Controls.Add(this.Multiplication_10_x_);
             this.Controls.Add(this.Division_y_x_);
@@ -243,6 +267,8 @@
         private System.Windows.Forms.Button Division_y_x_;
         private System.Windows.Forms.Button Multiplication_10_x_;
         private System.Windows.Forms.Button Sqrt;
+        private System.Windows.Forms.Button Gradtorad;
+        private System.Windows.Forms.Button Tan;
     }
 }
 

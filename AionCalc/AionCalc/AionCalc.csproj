@@ -57,9 +57,11 @@
     <Compile Include="BinaryCalculators\IBinaryCalculator.cs" />
     <Compile Include="BinaryCalculators\Multiplication.cs" />
     <Compile Include="MonoCalculators\Cos.cs" />
+    <Compile Include="MonoCalculators\Gradtorad.cs" />
     <Compile Include="MonoCalculators\IMonoCalculator.cs" />
     <Compile Include="MonoCalculators\MonoOperationsFactory.cs" />
     <Compile Include="MonoCalculators\Sqrtx.cs" />
+    <Compile Include="MonoCalculators\Tan.cs" />
     <Compile Include="MonoCalculators\Tenmultiplyx.cs" />
     <Compile Include="MonoCalculators\Tenpowerx.cs" />
     <Compile Include="MonoCalculators\Sin.cs" />
