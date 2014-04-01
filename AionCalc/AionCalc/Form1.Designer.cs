@@ -47,6 +47,7 @@
             this.Gradtorad = new System.Windows.Forms.Button();
             this.Tan = new System.Windows.Forms.Button();
             this.Xpowy = new System.Windows.Forms.Button();
+            this.Exppowx = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstArgument
@@ -229,11 +230,22 @@
             this.Xpowy.UseVisualStyleBackColor = true;
             this.Xpowy.Click += new System.EventHandler(this.Xpowy_Click);
             // 
+            // Exppowx
+            // 
+            this.Exppowx.Location = new System.Drawing.Point(252, 143);
+            this.Exppowx.Name = "Exppowx";
+            this.Exppowx.Size = new System.Drawing.Size(37, 32);
+            this.Exppowx.TabIndex = 19;
+            this.Exppowx.Text = "e^x";
+            this.Exppowx.UseVisualStyleBackColor = true;
+            this.Exppowx.Click += new System.EventHandler(this.Exppowx_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(403, 384);
+            this.Controls.Add(this.Exppowx);
             this.Controls.Add(this.Xpowy);
             this.Controls.Add(this.Tan);
             this.Controls.Add(this.Gradtorad);
@@ -282,6 +294,7 @@
         private System.Windows.Forms.Button Gradtorad;
         private System.Windows.Forms.Button Tan;
         private System.Windows.Forms.Button Xpowy;
+        private System.Windows.Forms.Button Exppowx;
     }
 }
 

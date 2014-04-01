@@ -28,6 +28,8 @@ namespace AionCalc.MonoCalculators
                     return  new Gradtorad();
                 case "tan":
                     return  new Tan();
+                case "exppowx":
+                    return  new Exppowx();
                 default:
                     throw new ArgumentException("Неизвестный калькулятор", "name");
             }

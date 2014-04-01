@@ -109,5 +109,10 @@ namespace AionCalc
             MonoCalculator("tan");
         }
 
+        private void Exppowx_Click(object sender, EventArgs e)
+        {
+            MonoCalculator("exppowx");
+        }
+
     }
 }
