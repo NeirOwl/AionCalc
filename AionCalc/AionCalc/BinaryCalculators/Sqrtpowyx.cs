@@ -8,10 +8,10 @@ namespace AionCalc.BinaryCalculators
 {
     public class Sqrtpowyx : IBinaryCalculator
     {
-        public string Calculate(double firstArgument, double secondArgument)
+        public double Calculate(double firstArgument, double secondArgument)
         {
             double result = Math.Pow(firstArgument,1/secondArgument);
-            return result.ToString();
+            return result;
         }
     }
 }

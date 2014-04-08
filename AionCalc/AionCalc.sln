@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AionCalc", "AionCalc\AionCalc.csproj", "{508BFDBC-F9AA-4395-A7AA-F61656509824}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AionCalc.Tests", "AionCalc.Tests\AionCalc.Tests.csproj", "{921A2C90-EE3D-4F7E-A85A-069F0E0612C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{508BFDBC-F9AA-4395-A7AA-F61656509824}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{508BFDBC-F9AA-4395-A7AA-F61656509824}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{508BFDBC-F9AA-4395-A7AA-F61656509824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{921A2C90-EE3D-4F7E-A85A-069F0E0612C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{921A2C90-EE3D-4F7E-A85A-069F0E0612C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{921A2C90-EE3D-4F7E-A85A-069F0E0612C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{921A2C90-EE3D-4F7E-A85A-069F0E0612C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

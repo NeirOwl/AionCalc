@@ -8,10 +8,10 @@ namespace AionCalc.MonoCalculators
 {
     public class Xpow3 : IMonoCalculator
     {
-        public string Calculate(double firstArgument)
+        public double Calculate(double firstArgument)
         {
             double result = Math.Pow(firstArgument,3);
-            return result.ToString();
+            return result;
         }
     }
 }

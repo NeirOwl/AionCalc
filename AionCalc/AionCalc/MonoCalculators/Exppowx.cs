@@ -8,10 +8,10 @@ namespace AionCalc.MonoCalculators
 {
     public class Exppowx : IMonoCalculator
     {
-        public string Calculate(double firstArgument)
+        public double Calculate(double firstArgument)
         {
             double result = Math.Exp(firstArgument);
-            return result.ToString();
+            return result;
         }
     }
 }

@@ -2,6 +2,6 @@
 {
     public interface IBinaryCalculator
     {
-        string Calculate(double firstArgument, double secondArgument);
+        double Calculate(double firstArgument, double secondArgument);
     }
 }

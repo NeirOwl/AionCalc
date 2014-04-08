@@ -8,10 +8,10 @@ namespace AionCalc.MonoCalculators
 {
     public class Twodivisionx : IMonoCalculator
     {
-        public string Calculate(double firstArgument)
+        public double Calculate(double firstArgument)
         {
             double result = 2 / firstArgument;
-            return result.ToString();
+            return result;
         }
     }
 }

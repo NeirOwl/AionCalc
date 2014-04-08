@@ -8,10 +8,10 @@ namespace AionCalc.MonoCalculators
 {
     public class Cosh : IMonoCalculator
     {
-        public string Calculate(double firstArgument)
+        public double Calculate(double firstArgument)
         {
             double result = Math.Cosh(firstArgument);
-            return result.ToString();
+            return result;
         }
     }
 }

@@ -29,7 +29,7 @@ namespace AionCalc
             double first = Convert.ToDouble(FirstArgument.Text);
             double second = Convert.ToDouble(SecondArgument.Text);
             IBinaryCalculator calc = BinaryOperationsFactory.CreateCalculator(name);
-            Answer.Text = calc.Calculate(first, second);
+            Answer.Text = calc.Calculate(first, second).ToString();
         }
 
         private void Addition_Click(object sender, EventArgs e)
@@ -86,7 +86,7 @@ namespace AionCalc
         {
             double first = Convert.ToDouble(FirstArgument.Text);
             IMonoCalculator calc = MonoOperationsFactory.CreateCalculator(name);
-            Answer.Text = calc.Calculate(first);
+            Answer.Text = calc.Calculate(first).ToString();
         }
 
         private void Cos_Click(object sender, EventArgs e)

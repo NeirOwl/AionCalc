@@ -8,10 +8,10 @@ namespace AionCalc.MonoCalculators
 {
     public class Sinh : IMonoCalculator
     {
-        public string Calculate(double firstArgument)
+        public double Calculate(double firstArgument)
         {
             double result = Math.Sinh(firstArgument);
-            return result.ToString();
+            return result;
         }
     }
 }

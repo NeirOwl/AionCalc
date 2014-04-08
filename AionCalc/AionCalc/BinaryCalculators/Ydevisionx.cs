@@ -8,10 +8,10 @@ namespace AionCalc.BinaryCalculators
 {
     public class Ydevisionx : IBinaryCalculator
     {
-        public string Calculate(double firstArgument, double secondArgument)
+        public double Calculate(double firstArgument, double secondArgument)
         {
             double result = secondArgument / firstArgument;
-            return result.ToString();
+            return result;
         }
     }
 }

@@ -8,10 +8,10 @@ namespace AionCalc.MonoCalculators
 {
     public class Sqrtpow3x : IMonoCalculator
     {
-        public string Calculate(double firstArgument)
+        public double Calculate(double firstArgument)
         {
             double result = Math.Pow(firstArgument,(double)1/3);
-            return result.ToString();
+            return result;
         }
     }
 }

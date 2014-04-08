@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AionCalc.MonoCalculators
+namespace AionCalc.Tests
 {
-    public interface IMonoCalculator
+    public class Class1
     {
-        double Calculate(double firstArgument);
     }
 }

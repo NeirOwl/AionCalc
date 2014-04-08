@@ -8,10 +8,10 @@ namespace AionCalc.BinaryCalculators
 {
     public class Twomultiplyxdivisiony : IBinaryCalculator
     {
-        public string Calculate(double firstArgument, double secondArgument)
+        public double Calculate(double firstArgument, double secondArgument)
         {
             double result = 2 * firstArgument / secondArgument;
-            return result.ToString();
+            return result;
         }
     }
 }

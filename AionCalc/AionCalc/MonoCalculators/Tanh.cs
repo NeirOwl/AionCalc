@@ -8,10 +8,10 @@ namespace AionCalc.MonoCalculators
 {
     public class Tanh : IMonoCalculator
     {
-        public string Calculate(double firstArgument)
+        public double Calculate(double firstArgument)
         {
             double result = Math.Tanh(firstArgument);
-            return result.ToString();
+            return result;
         }
     }
 }

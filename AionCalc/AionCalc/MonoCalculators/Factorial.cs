@@ -8,7 +8,7 @@ namespace AionCalc.MonoCalculators
 {
     public class Factorial : IMonoCalculator
     {
-        public string Calculate(double firstArgument)
+        public double Calculate(double firstArgument)
         {
             double result = 0;
             double factorial = 0;
@@ -17,7 +17,7 @@ namespace AionCalc.MonoCalculators
                 factorial = firstArgument*i;
             }
             result = factorial;
-            return result.ToString();
+            return result;
         }
     }
 }

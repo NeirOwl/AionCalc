@@ -8,10 +8,10 @@ namespace AionCalc.MonoCalculators
 {
     public class Gradtorad : IMonoCalculator
     {
-        public string Calculate(double firstArgument)
+        public double Calculate(double firstArgument)
         {
             double result = firstArgument * Math.PI / 180;
-            return result.ToString();
+            return result;
         }
     }
 }
