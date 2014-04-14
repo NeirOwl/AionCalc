@@ -9,14 +9,14 @@ using NUnit.Framework;
 namespace AionCalc.Tests.MonoCalculators
 {
     [TestFixture]
-    public class Tan
+    public class Twodivisionx
     {
         [Test]
-        public void TanTest()
+        public void TwodivisionxTest()
         {
-            IMonoCalculator calc = MonoOperationsFactory.CreateCalculator("tan");
-            double result = calc.Calculate(1);
-            Assert.AreEqual(1.55, result, 0.008);
+            IMonoCalculator calc = MonoOperationsFactory.CreateCalculator("2/x");
+            double result = calc.Calculate(4);
+            Assert.AreEqual(0.5, result);
         }
     }
 }
