@@ -46,6 +46,7 @@
     <Compile Include="BinaryCalculators\Division.Test.cs" />
     <Compile Include="BinaryCalculators\Subtraction.Test.cs" />
     <Compile Include="BinaryCalculators\Multiplication.Test.cs" />
+    <Compile Include="MonoCalculators\Gradtorad.Test.cs" />
     <Compile Include="MonoCalculators\Sqrtx.Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

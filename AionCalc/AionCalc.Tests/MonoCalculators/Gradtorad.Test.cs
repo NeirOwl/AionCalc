@@ -9,14 +9,14 @@ using NUnit.Framework;
 namespace AionCalc.Tests.MonoCalculators
 {
     [TestFixture]
-    public class Sqrtx
+    public class Gradtorad
     {
         [Test]
-        public void SqrtTest()
+        public void GradtoradTest()
         {
-            IMonoCalculator calc = MonoOperationsFactory.CreateCalculator("sqrtx");
-            double result = calc.Calculate(4);
-            Assert.AreEqual(2, result);
+            IMonoCalculator calc = MonoOperationsFactory.CreateCalculator("gradtorad");
+            double result = calc.Calculate(10);
+            Assert.AreEqual(0.17, result, 0.005);
         }
     }
 }
