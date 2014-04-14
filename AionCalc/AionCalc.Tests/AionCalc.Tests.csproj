@@ -49,6 +49,7 @@
     <Compile Include="MonoCalculators\Gradtorad.Test.cs" />
     <Compile Include="MonoCalculators\Sqrtx.Test.cs" />
     <Compile Include="MonoCalculators\Tenpowerx.Test.cs" />
+    <Compile Include="MonoCalculators\Tan.Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
