@@ -46,14 +46,13 @@
     <Compile Include="BinaryCalculators\Division.Test.cs" />
     <Compile Include="BinaryCalculators\Subtraction.Test.cs" />
     <Compile Include="BinaryCalculators\Multiplication.Test.cs" />
+    <Compile Include="MonoCalculators\Sqrtx.Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="MonoCalculators\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\AionCalc\AionCalc.csproj">
       <Project>{508bfdbc-f9aa-4395-a7aa-f61656509824}</Project>
