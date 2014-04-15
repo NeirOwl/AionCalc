@@ -9,14 +9,14 @@ using NUnit.Framework;
 namespace AionCalc.Tests.MonoCalculators
 {
     [TestFixture]
-    public class Cos
+    public class Sin
     {
         [Test]
-        public void CosTest()
+        public void SinTest()
         {
-            IMonoCalculator calc = MonoOperationsFactory.CreateCalculator("cos");
+            IMonoCalculator calc = MonoOperationsFactory.CreateCalculator("sin");
             double result = calc.Calculate(1);
-            Assert.AreEqual(0.54, result, 0.001);
+            Assert.AreEqual(0.84, result, 0.01);
         }
     }
 }

@@ -50,6 +50,7 @@
     <Compile Include="MonoCalculators\Cos.Test.cs" />
     <Compile Include="MonoCalculators\Exppowx.Test.cs" />
     <Compile Include="MonoCalculators\Gradtorad.Test.cs" />
+    <Compile Include="MonoCalculators\Sin.Test.cs" />
     <Compile Include="MonoCalculators\Sqrtx.Test.cs" />
     <Compile Include="MonoCalculators\Tan.Test.cs" />
     <Compile Include="MonoCalculators\Twodivisionx.Test.cs" />
