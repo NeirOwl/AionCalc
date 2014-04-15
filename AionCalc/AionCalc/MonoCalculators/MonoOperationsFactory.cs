@@ -49,7 +49,7 @@ namespace AionCalc.MonoCalculators
                 case "ln":
                     return new Ln();
                 default:
-                    throw new ArgumentException("Неизвестный калькулятор", "name");
+                    throw new ArgumentException("Unknown calculator", "name");
             }
         }
     }
