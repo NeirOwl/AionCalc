@@ -54,6 +54,7 @@
     <Compile Include="MonoCalculators\Cosh.Test.cs" />
     <Compile Include="MonoCalculators\Exppowx.Test.cs" />
     <Compile Include="MonoCalculators\Gradtorad.Test.cs" />
+    <Compile Include="MonoCalculators\Lg.Test.cs" />
     <Compile Include="MonoCalculators\Sin.Test.cs" />
     <Compile Include="MonoCalculators\Sinh.Test.cs" />
     <Compile Include="MonoCalculators\Sqrtx.Test.cs" />
