@@ -47,6 +47,7 @@
     <Compile Include="BinaryCalculators\Log.Test.cs" />
     <Compile Include="BinaryCalculators\Subtraction.Test.cs" />
     <Compile Include="BinaryCalculators\Multiplication.Test.cs" />
+    <Compile Include="BinaryCalculators\Twomultiplyxdivisiony.Test.cs" />
     <Compile Include="BinaryCalculators\Xpowy.Test.cs" />
     <Compile Include="BinaryCalculators\Ydivisionx.Test.cs" />
     <Compile Include="MonoCalculators\Cos.Test.cs" />
