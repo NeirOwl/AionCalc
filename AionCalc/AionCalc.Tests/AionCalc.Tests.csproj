@@ -58,6 +58,7 @@
     <Compile Include="MonoCalculators\Ln.Test.cs" />
     <Compile Include="MonoCalculators\Sin.Test.cs" />
     <Compile Include="MonoCalculators\Sinh.Test.cs" />
+    <Compile Include="MonoCalculators\Sqrtpow3x.Test.cs" />
     <Compile Include="MonoCalculators\Sqrtx.Test.cs" />
     <Compile Include="MonoCalculators\Tan.Test.cs" />
     <Compile Include="MonoCalculators\Tanh.Test.cs" />
