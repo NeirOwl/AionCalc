@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="BinaryCalculators\Adder.Test.cs" />
     <Compile Include="BinaryCalculators\Division.Test.cs" />
+    <Compile Include="BinaryCalculators\Log.Test.cs" />
     <Compile Include="BinaryCalculators\Subtraction.Test.cs" />
     <Compile Include="BinaryCalculators\Multiplication.Test.cs" />
     <Compile Include="BinaryCalculators\Xpowy.Test.cs" />
