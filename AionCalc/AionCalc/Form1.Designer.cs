@@ -61,6 +61,7 @@
             this.Twomultiplyxdivisiony = new System.Windows.Forms.Button();
             this.Lg = new System.Windows.Forms.Button();
             this.Ln = new System.Windows.Forms.Button();
+            this.Sorting = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstArgument
@@ -89,7 +90,7 @@
             // 
             this.Addition.Location = new System.Drawing.Point(12, 105);
             this.Addition.Name = "Addition";
-            this.Addition.Size = new System.Drawing.Size(34, 32);
+            this.Addition.Size = new System.Drawing.Size(59, 32);
             this.Addition.TabIndex = 3;
             this.Addition.Text = "+";
             this.Addition.UseVisualStyleBackColor = true;
@@ -97,9 +98,9 @@
             // 
             // Subtraction
             // 
-            this.Subtraction.Location = new System.Drawing.Point(52, 105);
+            this.Subtraction.Location = new System.Drawing.Point(77, 105);
             this.Subtraction.Name = "Subtraction";
-            this.Subtraction.Size = new System.Drawing.Size(34, 32);
+            this.Subtraction.Size = new System.Drawing.Size(59, 32);
             this.Subtraction.TabIndex = 4;
             this.Subtraction.Text = "-";
             this.Subtraction.UseVisualStyleBackColor = true;
@@ -107,9 +108,9 @@
             // 
             // Multiplication
             // 
-            this.Multiplication.Location = new System.Drawing.Point(92, 105);
+            this.Multiplication.Location = new System.Drawing.Point(142, 105);
             this.Multiplication.Name = "Multiplication";
-            this.Multiplication.Size = new System.Drawing.Size(34, 32);
+            this.Multiplication.Size = new System.Drawing.Size(59, 32);
             this.Multiplication.TabIndex = 5;
             this.Multiplication.Text = "*";
             this.Multiplication.UseVisualStyleBackColor = true;
@@ -117,9 +118,9 @@
             // 
             // Division
             // 
-            this.Division.Location = new System.Drawing.Point(132, 105);
+            this.Division.Location = new System.Drawing.Point(207, 105);
             this.Division.Name = "Division";
-            this.Division.Size = new System.Drawing.Size(34, 32);
+            this.Division.Size = new System.Drawing.Size(59, 32);
             this.Division.TabIndex = 6;
             this.Division.Text = "/";
             this.Division.UseVisualStyleBackColor = true;
@@ -145,9 +146,9 @@
             // 
             // Cos
             // 
-            this.Cos.Location = new System.Drawing.Point(172, 105);
+            this.Cos.Location = new System.Drawing.Point(12, 144);
             this.Cos.Name = "Cos";
-            this.Cos.Size = new System.Drawing.Size(34, 32);
+            this.Cos.Size = new System.Drawing.Size(59, 31);
             this.Cos.TabIndex = 9;
             this.Cos.Text = "cos";
             this.Cos.UseVisualStyleBackColor = true;
@@ -155,9 +156,9 @@
             // 
             // Sin
             // 
-            this.Sin.Location = new System.Drawing.Point(212, 105);
+            this.Sin.Location = new System.Drawing.Point(77, 144);
             this.Sin.Name = "Sin";
-            this.Sin.Size = new System.Drawing.Size(34, 32);
+            this.Sin.Size = new System.Drawing.Size(59, 31);
             this.Sin.TabIndex = 10;
             this.Sin.Text = "sin";
             this.Sin.UseVisualStyleBackColor = true;
@@ -165,9 +166,9 @@
             // 
             // Tanh
             // 
-            this.Tanh.Location = new System.Drawing.Point(252, 105);
+            this.Tanh.Location = new System.Drawing.Point(338, 144);
             this.Tanh.Name = "Tanh";
-            this.Tanh.Size = new System.Drawing.Size(37, 32);
+            this.Tanh.Size = new System.Drawing.Size(59, 31);
             this.Tanh.TabIndex = 11;
             this.Tanh.Text = "tanh";
             this.Tanh.UseVisualStyleBackColor = true;
@@ -175,9 +176,9 @@
             // 
             // Pow_10_x_
             // 
-            this.Pow_10_x_.Location = new System.Drawing.Point(295, 105);
+            this.Pow_10_x_.Location = new System.Drawing.Point(77, 259);
             this.Pow_10_x_.Name = "Pow_10_x_";
-            this.Pow_10_x_.Size = new System.Drawing.Size(42, 32);
+            this.Pow_10_x_.Size = new System.Drawing.Size(59, 32);
             this.Pow_10_x_.TabIndex = 12;
             this.Pow_10_x_.Text = "10^x";
             this.Pow_10_x_.UseVisualStyleBackColor = true;
@@ -185,9 +186,9 @@
             // 
             // Division_y_x_
             // 
-            this.Division_y_x_.Location = new System.Drawing.Point(343, 105);
+            this.Division_y_x_.Location = new System.Drawing.Point(274, 221);
             this.Division_y_x_.Name = "Division_y_x_";
-            this.Division_y_x_.Size = new System.Drawing.Size(42, 32);
+            this.Division_y_x_.Size = new System.Drawing.Size(58, 32);
             this.Division_y_x_.TabIndex = 13;
             this.Division_y_x_.Text = "y/x";
             this.Division_y_x_.UseVisualStyleBackColor = true;
@@ -195,9 +196,9 @@
             // 
             // Multiplication_10_x_
             // 
-            this.Multiplication_10_x_.Location = new System.Drawing.Point(12, 143);
+            this.Multiplication_10_x_.Location = new System.Drawing.Point(77, 221);
             this.Multiplication_10_x_.Name = "Multiplication_10_x_";
-            this.Multiplication_10_x_.Size = new System.Drawing.Size(42, 32);
+            this.Multiplication_10_x_.Size = new System.Drawing.Size(59, 32);
             this.Multiplication_10_x_.TabIndex = 14;
             this.Multiplication_10_x_.Text = "10*x";
             this.Multiplication_10_x_.UseVisualStyleBackColor = true;
@@ -205,9 +206,9 @@
             // 
             // Sqrt
             // 
-            this.Sqrt.Location = new System.Drawing.Point(60, 143);
+            this.Sqrt.Location = new System.Drawing.Point(12, 182);
             this.Sqrt.Name = "Sqrt";
-            this.Sqrt.Size = new System.Drawing.Size(42, 32);
+            this.Sqrt.Size = new System.Drawing.Size(59, 33);
             this.Sqrt.TabIndex = 15;
             this.Sqrt.Text = "sqrt";
             this.Sqrt.UseVisualStyleBackColor = true;
@@ -215,7 +216,7 @@
             // 
             // Gradtorad
             // 
-            this.Gradtorad.Location = new System.Drawing.Point(108, 143);
+            this.Gradtorad.Location = new System.Drawing.Point(340, 259);
             this.Gradtorad.Name = "Gradtorad";
             this.Gradtorad.Size = new System.Drawing.Size(58, 32);
             this.Gradtorad.TabIndex = 16;
@@ -225,9 +226,9 @@
             // 
             // Tan
             // 
-            this.Tan.Location = new System.Drawing.Point(172, 143);
+            this.Tan.Location = new System.Drawing.Point(142, 144);
             this.Tan.Name = "Tan";
-            this.Tan.Size = new System.Drawing.Size(34, 32);
+            this.Tan.Size = new System.Drawing.Size(58, 31);
             this.Tan.TabIndex = 17;
             this.Tan.Text = "tan";
             this.Tan.UseVisualStyleBackColor = true;
@@ -235,9 +236,9 @@
             // 
             // Xpowy
             // 
-            this.Xpowy.Location = new System.Drawing.Point(212, 143);
+            this.Xpowy.Location = new System.Drawing.Point(144, 259);
             this.Xpowy.Name = "Xpowy";
-            this.Xpowy.Size = new System.Drawing.Size(34, 32);
+            this.Xpowy.Size = new System.Drawing.Size(56, 32);
             this.Xpowy.TabIndex = 18;
             this.Xpowy.Text = "x^y";
             this.Xpowy.UseVisualStyleBackColor = true;
@@ -245,9 +246,9 @@
             // 
             // Exppowx
             // 
-            this.Exppowx.Location = new System.Drawing.Point(252, 143);
+            this.Exppowx.Location = new System.Drawing.Point(338, 182);
             this.Exppowx.Name = "Exppowx";
-            this.Exppowx.Size = new System.Drawing.Size(37, 32);
+            this.Exppowx.Size = new System.Drawing.Size(60, 33);
             this.Exppowx.TabIndex = 19;
             this.Exppowx.Text = "e^x";
             this.Exppowx.UseVisualStyleBackColor = true;
@@ -255,9 +256,9 @@
             // 
             // Twodivisionx
             // 
-            this.Twodivisionx.Location = new System.Drawing.Point(295, 143);
+            this.Twodivisionx.Location = new System.Drawing.Point(12, 221);
             this.Twodivisionx.Name = "Twodivisionx";
-            this.Twodivisionx.Size = new System.Drawing.Size(42, 32);
+            this.Twodivisionx.Size = new System.Drawing.Size(59, 32);
             this.Twodivisionx.TabIndex = 20;
             this.Twodivisionx.Text = "2/x";
             this.Twodivisionx.UseVisualStyleBackColor = true;
@@ -265,9 +266,9 @@
             // 
             // Sqrtpow3x
             // 
-            this.Sqrtpow3x.Location = new System.Drawing.Point(12, 181);
+            this.Sqrtpow3x.Location = new System.Drawing.Point(274, 259);
             this.Sqrtpow3x.Name = "Sqrtpow3x";
-            this.Sqrtpow3x.Size = new System.Drawing.Size(59, 32);
+            this.Sqrtpow3x.Size = new System.Drawing.Size(58, 32);
             this.Sqrtpow3x.TabIndex = 21;
             this.Sqrtpow3x.Text = "sqrt^3(x)";
             this.Sqrtpow3x.UseVisualStyleBackColor = true;
@@ -275,7 +276,7 @@
             // 
             // Sqrtpowyx
             // 
-            this.Sqrtpowyx.Location = new System.Drawing.Point(77, 181);
+            this.Sqrtpowyx.Location = new System.Drawing.Point(209, 259);
             this.Sqrtpowyx.Name = "Sqrtpowyx";
             this.Sqrtpowyx.Size = new System.Drawing.Size(59, 32);
             this.Sqrtpowyx.TabIndex = 22;
@@ -285,9 +286,9 @@
             // 
             // Factorial
             // 
-            this.Factorial.Location = new System.Drawing.Point(142, 181);
+            this.Factorial.Location = new System.Drawing.Point(77, 182);
             this.Factorial.Name = "Factorial";
-            this.Factorial.Size = new System.Drawing.Size(38, 32);
+            this.Factorial.Size = new System.Drawing.Size(59, 33);
             this.Factorial.TabIndex = 23;
             this.Factorial.Text = "x!";
             this.Factorial.UseVisualStyleBackColor = true;
@@ -295,9 +296,9 @@
             // 
             // Tendivisionx
             // 
-            this.Tendivisionx.Location = new System.Drawing.Point(186, 181);
+            this.Tendivisionx.Location = new System.Drawing.Point(144, 221);
             this.Tendivisionx.Name = "Tendivisionx";
-            this.Tendivisionx.Size = new System.Drawing.Size(49, 32);
+            this.Tendivisionx.Size = new System.Drawing.Size(56, 32);
             this.Tendivisionx.TabIndex = 24;
             this.Tendivisionx.Text = "10/x";
             this.Tendivisionx.UseVisualStyleBackColor = true;
@@ -305,9 +306,9 @@
             // 
             // Tenmultiplyxdivisiony
             // 
-            this.Tenmultiplyxdivisiony.Location = new System.Drawing.Point(241, 181);
+            this.Tenmultiplyxdivisiony.Location = new System.Drawing.Point(209, 221);
             this.Tenmultiplyxdivisiony.Name = "Tenmultiplyxdivisiony";
-            this.Tenmultiplyxdivisiony.Size = new System.Drawing.Size(48, 32);
+            this.Tenmultiplyxdivisiony.Size = new System.Drawing.Size(59, 32);
             this.Tenmultiplyxdivisiony.TabIndex = 25;
             this.Tenmultiplyxdivisiony.Text = "10*x/y";
             this.Tenmultiplyxdivisiony.UseVisualStyleBackColor = true;
@@ -315,9 +316,9 @@
             // 
             // Xpow3
             // 
-            this.Xpow3.Location = new System.Drawing.Point(295, 181);
+            this.Xpow3.Location = new System.Drawing.Point(12, 259);
             this.Xpow3.Name = "Xpow3";
-            this.Xpow3.Size = new System.Drawing.Size(42, 32);
+            this.Xpow3.Size = new System.Drawing.Size(59, 32);
             this.Xpow3.TabIndex = 26;
             this.Xpow3.Text = "x^3";
             this.Xpow3.UseVisualStyleBackColor = true;
@@ -325,9 +326,9 @@
             // 
             // Log
             // 
-            this.Log.Location = new System.Drawing.Point(12, 219);
+            this.Log.Location = new System.Drawing.Point(144, 182);
             this.Log.Name = "Log";
-            this.Log.Size = new System.Drawing.Size(44, 31);
+            this.Log.Size = new System.Drawing.Size(56, 33);
             this.Log.TabIndex = 27;
             this.Log.Text = "log";
             this.Log.UseVisualStyleBackColor = true;
@@ -335,9 +336,9 @@
             // 
             // Sinh
             // 
-            this.Sinh.Location = new System.Drawing.Point(62, 219);
+            this.Sinh.Location = new System.Drawing.Point(273, 144);
             this.Sinh.Name = "Sinh";
-            this.Sinh.Size = new System.Drawing.Size(39, 30);
+            this.Sinh.Size = new System.Drawing.Size(59, 31);
             this.Sinh.TabIndex = 28;
             this.Sinh.Text = "sinh";
             this.Sinh.UseVisualStyleBackColor = true;
@@ -345,9 +346,9 @@
             // 
             // Cosh
             // 
-            this.Cosh.Location = new System.Drawing.Point(108, 219);
+            this.Cosh.Location = new System.Drawing.Point(208, 144);
             this.Cosh.Name = "Cosh";
-            this.Cosh.Size = new System.Drawing.Size(40, 31);
+            this.Cosh.Size = new System.Drawing.Size(59, 31);
             this.Cosh.TabIndex = 29;
             this.Cosh.Text = "cosh";
             this.Cosh.UseVisualStyleBackColor = true;
@@ -355,9 +356,9 @@
             // 
             // Twomultiplyxdivisiony
             // 
-            this.Twomultiplyxdivisiony.Location = new System.Drawing.Point(154, 220);
+            this.Twomultiplyxdivisiony.Location = new System.Drawing.Point(340, 221);
             this.Twomultiplyxdivisiony.Name = "Twomultiplyxdivisiony";
-            this.Twomultiplyxdivisiony.Size = new System.Drawing.Size(42, 30);
+            this.Twomultiplyxdivisiony.Size = new System.Drawing.Size(58, 32);
             this.Twomultiplyxdivisiony.TabIndex = 30;
             this.Twomultiplyxdivisiony.Text = "2*x/y";
             this.Twomultiplyxdivisiony.UseVisualStyleBackColor = true;
@@ -365,9 +366,9 @@
             // 
             // Lg
             // 
-            this.Lg.Location = new System.Drawing.Point(202, 220);
+            this.Lg.Location = new System.Drawing.Point(209, 182);
             this.Lg.Name = "Lg";
-            this.Lg.Size = new System.Drawing.Size(38, 30);
+            this.Lg.Size = new System.Drawing.Size(58, 32);
             this.Lg.TabIndex = 31;
             this.Lg.Text = "lg";
             this.Lg.UseVisualStyleBackColor = true;
@@ -375,19 +376,30 @@
             // 
             // Ln
             // 
-            this.Ln.Location = new System.Drawing.Point(246, 220);
+            this.Ln.Location = new System.Drawing.Point(273, 183);
             this.Ln.Name = "Ln";
-            this.Ln.Size = new System.Drawing.Size(36, 31);
+            this.Ln.Size = new System.Drawing.Size(59, 32);
             this.Ln.TabIndex = 32;
             this.Ln.Text = "ln";
             this.Ln.UseVisualStyleBackColor = true;
             this.Ln.Click += new System.EventHandler(this.Ln_Click);
             // 
+            // Sorting
+            // 
+            this.Sorting.Location = new System.Drawing.Point(340, 8);
+            this.Sorting.Name = "Sorting";
+            this.Sorting.Size = new System.Drawing.Size(58, 50);
+            this.Sorting.TabIndex = 33;
+            this.Sorting.Text = "Sorting";
+            this.Sorting.UseVisualStyleBackColor = true;
+            this.Sorting.Click += new System.EventHandler(this.Sorting_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(430, 384);
+            this.ClientSize = new System.Drawing.Size(407, 299);
+            this.Controls.Add(this.Sorting);
             this.Controls.Add(this.Ln);
             this.Controls.Add(this.Lg);
             this.Controls.Add(this.Twomultiplyxdivisiony);
@@ -464,6 +476,7 @@
         private System.Windows.Forms.Button Twomultiplyxdivisiony;
         private System.Windows.Forms.Button Lg;
         private System.Windows.Forms.Button Ln;
+        private System.Windows.Forms.Button Sorting;
     }
 }
 

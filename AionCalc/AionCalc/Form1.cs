@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using AionCalc.BinaryCalculators;
 using AionCalc.MonoCalculators;
+using AionCalc.Sorting;
 
 namespace AionCalc
 {
@@ -177,7 +178,30 @@ namespace AionCalc
         private void Ln_Click(object sender, EventArgs e)
         {
             MonoCalculator("ln");
-        } 
+        }
+
+        private void Sorting_Click(object sender, EventArgs e)
+        {
+            MassSort("Sort");
+        }
+
+        private void MassSort(string name)
+        {
+            string[] stringArray = FirstArgument.Text.Split(' ');
+            int[] array = new int[stringArray.Length];
+            for (int i = 0; i < stringArray.Length; i++)
+            {
+                array[i] = Convert.ToInt32(stringArray[i]);
+            }
+            ISortingOperation sorter = SortingOperationFactory.CreateSorting(name);
+            int[] result = sorter.SortMass(array);
+            string stringResult = string.Empty;
+            foreach (int element in result)
+            {
+                stringResult += element + " ";
+            }
+            Answer.Text = stringResult;
+        }
 
     }
 }
