@@ -12,8 +12,10 @@ namespace AionCalc.Sorting
         {
             switch (name)
             {
-                case "Sort":
-                    return new Sort();
+                case "SortBubble":
+                    return new SortBubble();
+                case "SortSelection":
+                    return new SortSelection();
                 default:
                     throw new ArgumentException("Unknown calculator", "name");
             }

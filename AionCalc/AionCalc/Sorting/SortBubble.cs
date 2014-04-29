@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AionCalc.Sorting
 {
-    public class Sort : ISortingOperation
+    public class SortBubble : ISortingOperation
     {
         public int[] SortMass(int[] firstArgument)
         {

@@ -182,10 +182,10 @@ namespace AionCalc
 
         private void Sorting_Click(object sender, EventArgs e)
         {
-            MassSort("Sort");
+            SortMass("SortBubble");
         }
 
-        private void MassSort(string name)
+        private void SortMass(string name)
         {
             string[] stringArray = FirstArgument.Text.Split(' ');
             int[] array = new int[stringArray.Length];
@@ -201,6 +201,11 @@ namespace AionCalc
                 stringResult += element + " ";
             }
             Answer.Text = stringResult;
+        }
+
+        private void SortingSelection_Click(object sender, EventArgs e)
+        {
+            SortMass("SortSelection");
         }
 
     }

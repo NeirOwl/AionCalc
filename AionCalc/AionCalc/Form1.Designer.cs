@@ -61,7 +61,8 @@
             this.Twomultiplyxdivisiony = new System.Windows.Forms.Button();
             this.Lg = new System.Windows.Forms.Button();
             this.Ln = new System.Windows.Forms.Button();
-            this.Sorting = new System.Windows.Forms.Button();
+            this.SortingBubble = new System.Windows.Forms.Button();
+            this.SortingSelection = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstArgument
@@ -83,7 +84,7 @@
             this.Answer.Location = new System.Drawing.Point(12, 64);
             this.Answer.Name = "Answer";
             this.Answer.ReadOnly = true;
-            this.Answer.Size = new System.Drawing.Size(108, 20);
+            this.Answer.Size = new System.Drawing.Size(223, 20);
             this.Answer.TabIndex = 2;
             // 
             // Addition
@@ -384,22 +385,33 @@
             this.Ln.UseVisualStyleBackColor = true;
             this.Ln.Click += new System.EventHandler(this.Ln_Click);
             // 
-            // Sorting
+            // SortingBubble
             // 
-            this.Sorting.Location = new System.Drawing.Point(340, 8);
-            this.Sorting.Name = "Sorting";
-            this.Sorting.Size = new System.Drawing.Size(58, 50);
-            this.Sorting.TabIndex = 33;
-            this.Sorting.Text = "Sorting";
-            this.Sorting.UseVisualStyleBackColor = true;
-            this.Sorting.Click += new System.EventHandler(this.Sorting_Click);
+            this.SortingBubble.Location = new System.Drawing.Point(273, 8);
+            this.SortingBubble.Name = "SortingBubble";
+            this.SortingBubble.Size = new System.Drawing.Size(125, 24);
+            this.SortingBubble.TabIndex = 33;
+            this.SortingBubble.Text = "SortingBubble";
+            this.SortingBubble.UseVisualStyleBackColor = true;
+            this.SortingBubble.Click += new System.EventHandler(this.Sorting_Click);
+            // 
+            // SortingSelection
+            // 
+            this.SortingSelection.Location = new System.Drawing.Point(274, 34);
+            this.SortingSelection.Name = "SortingSelection";
+            this.SortingSelection.Size = new System.Drawing.Size(124, 24);
+            this.SortingSelection.TabIndex = 34;
+            this.SortingSelection.Text = "SortingSelection";
+            this.SortingSelection.UseVisualStyleBackColor = true;
+            this.SortingSelection.Click += new System.EventHandler(this.SortingSelection_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(407, 299);
-            this.Controls.Add(this.Sorting);
+            this.Controls.Add(this.SortingSelection);
+            this.Controls.Add(this.SortingBubble);
             this.Controls.Add(this.Ln);
             this.Controls.Add(this.Lg);
             this.Controls.Add(this.Twomultiplyxdivisiony);
@@ -476,7 +488,8 @@
         private System.Windows.Forms.Button Twomultiplyxdivisiony;
         private System.Windows.Forms.Button Lg;
         private System.Windows.Forms.Button Ln;
-        private System.Windows.Forms.Button Sorting;
+        private System.Windows.Forms.Button SortingBubble;
+        private System.Windows.Forms.Button SortingSelection;
     }
 }
 
