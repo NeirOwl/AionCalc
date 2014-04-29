@@ -16,6 +16,8 @@ namespace AionCalc.Sorting
                     return new SortBubble();
                 case "SortSelection":
                     return new SortSelection();
+                case "SortInsertion":
+                    return new SortInsertion();
                 default:
                     throw new ArgumentException("Unknown calculator", "name");
             }

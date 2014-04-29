@@ -87,6 +87,7 @@
     <Compile Include="Sorting\ISortingOperation.cs" />
     <Compile Include="Sorting\SortBubble.cs" />
     <Compile Include="Sorting\SortingOperationFactory.cs" />
+    <Compile Include="Sorting\SortInsertion.cs" />
     <Compile Include="Sorting\SortSelection.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

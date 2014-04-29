@@ -208,5 +208,10 @@ namespace AionCalc
             SortMass("SortSelection");
         }
 
+        private void SortingInsertion_Click(object sender, EventArgs e)
+        {
+            SortMass("SortInsertion");
+        }
+
     }
 }

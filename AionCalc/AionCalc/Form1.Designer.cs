@@ -63,6 +63,7 @@
             this.Ln = new System.Windows.Forms.Button();
             this.SortingBubble = new System.Windows.Forms.Button();
             this.SortingSelection = new System.Windows.Forms.Button();
+            this.SortingInsertion = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstArgument
@@ -405,11 +406,22 @@
             this.SortingSelection.UseVisualStyleBackColor = true;
             this.SortingSelection.Click += new System.EventHandler(this.SortingSelection_Click);
             // 
+            // SortingInsertion
+            // 
+            this.SortingInsertion.Location = new System.Drawing.Point(274, 60);
+            this.SortingInsertion.Name = "SortingInsertion";
+            this.SortingInsertion.Size = new System.Drawing.Size(124, 24);
+            this.SortingInsertion.TabIndex = 35;
+            this.SortingInsertion.Text = "SortingInsertion";
+            this.SortingInsertion.UseVisualStyleBackColor = true;
+            this.SortingInsertion.Click += new System.EventHandler(this.SortingInsertion_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(407, 299);
+            this.Controls.Add(this.SortingInsertion);
             this.Controls.Add(this.SortingSelection);
             this.Controls.Add(this.SortingBubble);
             this.Controls.Add(this.Ln);
@@ -490,6 +502,7 @@
         private System.Windows.Forms.Button Ln;
         private System.Windows.Forms.Button SortingBubble;
         private System.Windows.Forms.Button SortingSelection;
+        private System.Windows.Forms.Button SortingInsertion;
     }
 }
 
