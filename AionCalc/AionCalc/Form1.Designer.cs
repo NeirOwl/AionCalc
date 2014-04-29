@@ -64,6 +64,7 @@
             this.SortingBubble = new System.Windows.Forms.Button();
             this.SortingSelection = new System.Windows.Forms.Button();
             this.SortingInsertion = new System.Windows.Forms.Button();
+            this.SortingCocktail = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstArgument
@@ -398,7 +399,7 @@
             // 
             // SortingSelection
             // 
-            this.SortingSelection.Location = new System.Drawing.Point(274, 34);
+            this.SortingSelection.Location = new System.Drawing.Point(274, 38);
             this.SortingSelection.Name = "SortingSelection";
             this.SortingSelection.Size = new System.Drawing.Size(124, 24);
             this.SortingSelection.TabIndex = 34;
@@ -408,7 +409,7 @@
             // 
             // SortingInsertion
             // 
-            this.SortingInsertion.Location = new System.Drawing.Point(274, 60);
+            this.SortingInsertion.Location = new System.Drawing.Point(275, 68);
             this.SortingInsertion.Name = "SortingInsertion";
             this.SortingInsertion.Size = new System.Drawing.Size(124, 24);
             this.SortingInsertion.TabIndex = 35;
@@ -416,11 +417,22 @@
             this.SortingInsertion.UseVisualStyleBackColor = true;
             this.SortingInsertion.Click += new System.EventHandler(this.SortingInsertion_Click);
             // 
+            // SortingCocktail
+            // 
+            this.SortingCocktail.Location = new System.Drawing.Point(274, 98);
+            this.SortingCocktail.Name = "SortingCocktail";
+            this.SortingCocktail.Size = new System.Drawing.Size(123, 24);
+            this.SortingCocktail.TabIndex = 36;
+            this.SortingCocktail.Text = "SortingCocktail";
+            this.SortingCocktail.UseVisualStyleBackColor = true;
+            this.SortingCocktail.Click += new System.EventHandler(this.SortingCocktail_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(407, 299);
+            this.Controls.Add(this.SortingCocktail);
             this.Controls.Add(this.SortingInsertion);
             this.Controls.Add(this.SortingSelection);
             this.Controls.Add(this.SortingBubble);
@@ -503,6 +515,7 @@
         private System.Windows.Forms.Button SortingBubble;
         private System.Windows.Forms.Button SortingSelection;
         private System.Windows.Forms.Button SortingInsertion;
+        private System.Windows.Forms.Button SortingCocktail;
     }
 }
 

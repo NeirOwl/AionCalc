@@ -18,6 +18,8 @@ namespace AionCalc.Sorting
                     return new SortSelection();
                 case "SortInsertion":
                     return new SortInsertion();
+                case "SortCocktail":
+                    return new SortCocktail();
                 default:
                     throw new ArgumentException("Unknown calculator", "name");
             }

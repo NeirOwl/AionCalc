@@ -86,6 +86,7 @@
     <Compile Include="BinaryCalculators\Subtraction.cs" />
     <Compile Include="Sorting\ISortingOperation.cs" />
     <Compile Include="Sorting\SortBubble.cs" />
+    <Compile Include="Sorting\SortCocktail.cs" />
     <Compile Include="Sorting\SortingOperationFactory.cs" />
     <Compile Include="Sorting\SortInsertion.cs" />
     <Compile Include="Sorting\SortSelection.cs" />
