@@ -27,10 +27,17 @@ namespace AionCalc
 
         private void Calculator(string name)
         {
-            double first = Convert.ToDouble(FirstArgument.Text);
-            double second = Convert.ToDouble(SecondArgument.Text);
-            IBinaryCalculator calc = BinaryOperationsFactory.CreateCalculator(name);
-            Answer.Text = calc.Calculate(first, second).ToString();
+            try
+            {
+                double first = Convert.ToDouble(FirstArgument.Text);
+                double second = Convert.ToDouble(SecondArgument.Text);
+                IBinaryCalculator calc = BinaryOperationsFactory.CreateCalculator(name);
+                Answer.Text = calc.Calculate(first, second).ToString();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
         }
 
         private void Addition_Click(object sender, EventArgs e)
@@ -85,9 +92,16 @@ namespace AionCalc
 
         private void MonoCalculator(string name)
         {
-            double first = Convert.ToDouble(FirstArgument.Text);
-            IMonoCalculator calc = MonoOperationsFactory.CreateCalculator(name);
-            Answer.Text = calc.Calculate(first).ToString();
+            try
+            {
+                double first = Convert.ToDouble(FirstArgument.Text);
+                IMonoCalculator calc = MonoOperationsFactory.CreateCalculator(name);
+                Answer.Text = calc.Calculate(first).ToString();
+            }
+            catch (Exception e)
+            {
+               MessageBox.Show(e.Message);
+            }
         }
 
         private void Cos_Click(object sender, EventArgs e)
@@ -187,20 +201,27 @@ namespace AionCalc
 
         private void SortMass(string name)
         {
-            string[] stringArray = FirstArgument.Text.Split(' ');
-            int[] array = new int[stringArray.Length];
-            for (int i = 0; i < stringArray.Length; i++)
+            try
             {
-                array[i] = Convert.ToInt32(stringArray[i]);
+                string[] stringArray = FirstArgument.Text.Split(' ');
+                int[] array = new int[stringArray.Length];
+                for (int i = 0; i < stringArray.Length; i++)
+                {
+                    array[i] = Convert.ToInt32(stringArray[i]);
+                }
+                ISortingOperation sorter = SortingOperationFactory.CreateSorting(name);
+                int[] result = sorter.SortMass(array);
+                string stringResult = string.Empty;
+                foreach (int element in result)
+                {
+                    stringResult += element + " ";
+                }
+                Answer.Text = stringResult;
             }
-            ISortingOperation sorter = SortingOperationFactory.CreateSorting(name);
-            int[] result = sorter.SortMass(array);
-            string stringResult = string.Empty;
-            foreach (int element in result)
+            catch (Exception e)
             {
-                stringResult += element + " ";
+                MessageBox.Show(e.Message);
             }
-            Answer.Text = stringResult;
         }
 
         private void SortingSelection_Click(object sender, EventArgs e)
