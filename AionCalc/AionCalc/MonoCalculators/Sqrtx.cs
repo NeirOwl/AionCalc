@@ -10,6 +10,10 @@ namespace AionCalc.MonoCalculators
     {
         public double Calculate(double firstArgument)
         {
+            if (firstArgument < 0)
+            {
+                throw new Exception("Корень из отрицательного числа невозможен");
+            }
             double result = Math.Sqrt(firstArgument);
             return result;
         }

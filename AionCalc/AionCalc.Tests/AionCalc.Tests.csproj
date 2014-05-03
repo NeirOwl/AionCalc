@@ -71,6 +71,7 @@
     <Compile Include="MonoCalculators\Twodivisionx.Test.cs" />
     <Compile Include="MonoCalculators\Xpow3.Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sorting\SortInsertion.Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -10,6 +10,10 @@ namespace AionCalc.BinaryCalculators
     {
         public double Calculate(double firstArgument, double secondArgument)
         {
+            if (firstArgument < 0 )
+            {
+                throw new Exception("Корень из отрицательного числа невозможен");
+            }
             double result = Math.Pow(firstArgument,1/secondArgument);
             return result;
         }

@@ -10,6 +10,10 @@ namespace AionCalc.BinaryCalculators
     {
         public double Calculate(double firstArgument, double secondArgument)
         {
+            if (firstArgument < 0)
+            {
+                throw new Exception("Логарифм отрицательного числа не существует");
+            }
             double result = Math.Log(firstArgument,secondArgument);
             return result;
         }
