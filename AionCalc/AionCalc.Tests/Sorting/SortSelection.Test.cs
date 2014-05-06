@@ -24,33 +24,5 @@ namespace AionCalc.Tests.Sorting
                 Assert.AreEqual(expexted[i], result[i]);
             }
         }
-
-        [Test]
-        public void SortNegetiveValuesTest()
-        {
-            ISortingOperation sorter = SortingOperationFactory.CreateSorting("SortSelection");
-            int[] source = { -6, 3, -1, 1, -8 };
-            int[] expexted = { -8, -6, -1, 1, 3 };
-            int[] result = sorter.SortMass(source);
-            Assert.AreEqual(expexted.Length, result.Length);
-            for (int i = 0; i < result.Length; i++)
-            {
-                Assert.AreEqual(expexted[i], result[i]);
-            }
-        }
-
-        [Test]
-        public void SortReValuesTest()
-        {
-            ISortingOperation sorter = SortingOperationFactory.CreateSorting("SortSelection");
-            int[] source = { -1, 4, 8, 8, -2 };
-            int[] expexted = { -2, -1, 4, 8, 8 };
-            int[] result = sorter.SortMass(source);
-            Assert.AreEqual(expexted.Length, result.Length);
-            for (int i = 0; i < result.Length; i++)
-            {
-                Assert.AreEqual(expexted[i], result[i]);
-            }
-        }
     }
 }
