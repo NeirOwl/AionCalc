@@ -74,6 +74,7 @@
     <Compile Include="Sorting\SortBubble.Test.cs" />
     <Compile Include="Sorting\SortCocktail.Test.cs" />
     <Compile Include="Sorting\SortInsertion.Test.cs" />
+    <Compile Include="Sorting\SortSelection.Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
